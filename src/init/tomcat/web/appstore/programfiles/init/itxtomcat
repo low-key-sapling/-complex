@@ -1,0 +1,154 @@
+#!/bin/bash
+# 
+# chkconfig: 1235 10 60
+# processname: itxtomcat
+# 
+### BEGIN INIT INFO
+# Provides:          itxtomcat
+# Required-Start: 
+# Required-Stop: 
+# Should-Start: 
+# Should-Stop: 
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: start and stop the server
+# Description:       itxtomcat service
+### END INIT INFO 
+
+# the var define
+RETVAL=0
+
+# add runtime environment
+add_so_search_path()
+{
+	PRE_PATH=""
+	if [ $# -lt 1 ]; then
+		PRE_PATH=`pwd`
+	else
+		PRE_PATH=$1
+	fi
+	EXTRA_PATH=""
+	for file in $PRE_PATH/*
+	do
+		if [ -d $file ]; then
+			if [ "$EXTRA_PATH"x = "x" ]; then
+				EXTRA_PATH="$file"
+			else
+				EXTRA_PATH="$file:$EXTRA_PATH"
+			fi
+		fi
+	done
+	export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$PRE_PATH:$EXTRA_PATH"
+}
+
+# add runtime environment
+add_env_path()
+{
+	return
+}
+
+#service start
+start()
+{
+	number=`ps -ef | grep "custom.srvname=itxtomcat" | grep -v grep | head -n 1 | wc -l`
+	if [ $number -ge 1 ];then
+		return $RETVAL
+	fi
+	add_env_path
+	ulimit -n  65535
+	if [ -f "/appstore/programfiles/intax/itxenv.java/plugins/java.env.tomcat/bin/tomcat-watch.sh" ]
+	then
+		cd "/appstore/programfiles/intax/itxenv.java/plugins/java.env.tomcat/bin"
+		nohup "/appstore/programfiles/intax/itxenv.java/plugins/java.env.tomcat/bin/tomcat-watch.sh" >/dev/null 2>&1 &
+		RETVAL=$?
+	fi
+	return $RETVAL
+}
+
+#service stop
+stop()
+{
+	ps -ef | grep "tomcat-watch" | grep -v grep | {
+	while read uid pid ppid c stime tty time cmd;
+	do
+		kill -9 $pid
+	done
+	}
+	i=1
+	while [ $i -le 5 ]
+	do
+		number=`ps -ef | grep "tomcat-watch" | grep -v grep | head -n 1 | wc -l`
+		if [ $number -le 0 ];then
+			break
+		fi
+		i=$(($i+1))
+		sleep 1s
+	done
+	RETVAL=$?
+	ps -ef | grep "custom.srvname=itxtomcat" | grep -v grep | {
+	while read uid pid ppid c stime tty time cmd;
+	do
+		kill -9 $pid
+	done
+	}
+	i=1
+	while [ $i -le 5 ]
+	do
+		number=`ps -ef | grep "custom.srvname=itxtomcat" | grep -v grep | head -n 1 | wc -l`
+		if [ $number -le 0 ];then
+			break
+		fi
+		i=$(($i+1))
+		sleep 1s
+	done
+	RETVAL=$?
+	return $RETVAL
+}
+
+#service uninstall
+uninstall()
+{
+	rm -rf /etc/rc2.d/S60itxtomcat
+	rm -rf /etc/rc3.d/S60itxtomcat
+	rm -rf /etc/rc4.d/S60itxtomcat
+	rm -rf /etc/rc5.d/S60itxtomcat
+	RETVAL=0
+	return $RETVAL
+}
+
+#service querystate
+querystate()
+{
+	number=`ps -ef | grep "custom.srvname=itxtomcat" | grep -v grep | head -n 1 | wc -l`
+	if [ $number -ge 1 ];then
+		RETVAL=1
+	fi
+	return $RETVAL 
+}
+
+#parse cmd
+case "$1" in
+	start)
+		start
+		;;
+	stop)
+		stop
+		;;
+	restart)
+		stop
+		sleep 1
+		start
+		;;
+	uninstall)
+		uninstall
+		;;
+	querystate)
+		querystate
+		;;
+	*)
+		echo "Usage: $0 {start|stop|restart}"
+		exit 1
+		;;
+esac
+
+exit $RETVAL

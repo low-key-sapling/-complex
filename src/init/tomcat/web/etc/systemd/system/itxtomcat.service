@@ -1,0 +1,12 @@
+[Unit]
+Description=itxtomcat
+After=network.target mysqld.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/appstore/programfiles/init/itxtomcat start
+ExecStop=/appstore/programfiles/init/itxtomcat stop
+
+[Install]
+WantedBy=multi-user.target
