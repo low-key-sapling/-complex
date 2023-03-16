@@ -15,7 +15,7 @@ import java.util.List;
  */
 @Slf4j
 @RestController
-public class NbaController {
+public class ESDataController {
     //@Autowired
     private NbaService nbaService;
 
