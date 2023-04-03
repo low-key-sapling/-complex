@@ -1,0 +1,13 @@
+[Unit]
+Description=lowkey_complex
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/opt/lowkey/lowkey_complex/init/runshell/lowkey_complex.sh start
+ExecStop=/opt/lowkey/lowkey_complex/init/runshell/lowkey_complex.sh stop
+ExecReload=/opt/lowkey/lowkey_complex/init/runshell/lowkey_complex.sh restart
+
+WorkingDirectory=/opt/lowkey/lowkey_complex/init/runshell
+[Install]
+WantedBy=multi-user.target
