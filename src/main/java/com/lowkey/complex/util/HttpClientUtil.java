@@ -122,8 +122,6 @@ public class HttpClientUtil implements java.io.Serializable {
                     .register("https", sslConnectionFactory)
                     .register("http", new PlainConnectionSocketFactory())
                     .build();
-            HttpClientConnectionManager ccm = new PoolingHttpClientConnectionManager(registry);
-            builder.setConnectionManager(ccm);
             client = builder.setMaxConnTotal(maxTotal)
                     .setMaxConnPerRoute(maxPerRoute)
                     .setDefaultRequestConfig(config)
