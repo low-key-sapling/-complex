@@ -32,7 +32,7 @@ public class PoetryAIController {
 
     @RequestMapping("/poetry")
     @ResponseBody
-    public ResultEntity<Map> helloWorld(@RequestParam String text) {
+    public ResultEntity<Map<String, String>> helloWorld(@RequestParam String text) {
         Map<String, String> header = Maps.newHashMap();
         header.put("Accept", "application/json");
         JSONObject jsonObject = new JSONObject();

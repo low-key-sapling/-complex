@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @since 2022-07-19
  */
 @Controller
-@RequestMapping("")
+@RequestMapping("/test")
 public class HelloWorldController {
     private static final Logger logger = LoggerFactory.getLogger(HelloWorldController.class);
 
@@ -24,5 +24,4 @@ public class HelloWorldController {
         logger.info("this is test controller");
         return ResultEntity.successWithData("Hello World");
     }
-
 }

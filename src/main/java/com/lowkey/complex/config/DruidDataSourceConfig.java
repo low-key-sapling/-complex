@@ -9,6 +9,7 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.servlet.Servlet;
 import javax.sql.DataSource;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -37,8 +38,8 @@ public class DruidDataSourceConfig {
     //配置 Druid 监控管理后台的Servlet；
     //内置 Servlet 容器时没有web.xml文件，所以使用 Spring Boot 的注册 Servlet 方式
     @Bean
-    public ServletRegistrationBean statViewServlet() {
-        ServletRegistrationBean bean = new ServletRegistrationBean(new StatViewServlet(), "/druid/*");
+    public ServletRegistrationBean<Servlet> statViewServlet() {
+        ServletRegistrationBean<Servlet> bean = new ServletRegistrationBean<>(new StatViewServlet(), "/druid/*");
 
         // 这些参数可以在 com.alibaba.druid.support.http.StatViewServlet
         // 的父类 com.alibaba.druid.support.http.ResourceServlet 中找到
