@@ -22,12 +22,6 @@ public class NbaServiceImpl implements NbaService {
     //@Autowired
     ElasticsearchRestTemplate elasticsearchRestTemplate;
 
-    /**
-     * @return java.util.List<com.lowkey.complex.entity.Nba>
-     * @author yuanjifan
-     * @description 从ES获取全部数据
-     * @date 2021/11/24 13:20
-     */
     @Override
     public List<Nba> findAll() {
         Iterable<Nba> nbaIterable = nbaRepository.findAll();

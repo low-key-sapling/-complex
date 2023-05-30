@@ -9,6 +9,9 @@ import org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchRe
 import org.springframework.boot.autoconfigure.elasticsearch.ElasticsearchRestClientAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
+/**
+ * @author lowkey
+ */
 @EnableScheduling
 @MapperScan("com.lowkey.complex.**.mapper")
 @SpringBootApplication

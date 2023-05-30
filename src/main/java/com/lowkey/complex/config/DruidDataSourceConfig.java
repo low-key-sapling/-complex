@@ -23,11 +23,12 @@ import java.util.Map;
 @Configuration
 public class DruidDataSourceConfig {
 
-    /*
-       将自定义的 Druid数据源添加到容器中，不再让 Spring Boot 自动创建
-       绑定全局配置文件中的 druid 数据源属性到 com.alibaba.druid.pool.DruidDataSource从而让它们生效
-       @ConfigurationProperties(prefix = "spring.datasource")：作用就是将 全局配置文件中
-       前缀为 spring.datasource的属性值注入到 com.alibaba.druid.pool.DruidDataSource 的同名参数中
+    /**
+     * 将自定义的 Druid数据源添加到容器中，不再让 Spring Boot 自动创建
+     * 绑定全局配置文件中的 druid 数据源属性到 com.alibaba.druid.pool.DruidDataSource从而让它们生效
+     *
+     * @ConfigurationProperties(prefix = "spring.datasource")：作用就是将 全局配置文件中
+     * 前缀为 spring.datasource的属性值注入到 com.alibaba.druid.pool.DruidDataSource 的同名参数中
      */
     @ConfigurationProperties(prefix = "spring.datasource")
     @Bean
@@ -44,8 +45,10 @@ public class DruidDataSourceConfig {
         // 这些参数可以在 com.alibaba.druid.support.http.StatViewServlet
         // 的父类 com.alibaba.druid.support.http.ResourceServlet 中找到
         Map<String, String> initParams = new HashMap<>();
-        initParams.put("loginUsername", "admin"); //后台管理界面的登录账号
-        initParams.put("loginPassword", "123456"); //后台管理界面的登录密码
+        //后台管理界面的登录账号
+        initParams.put("loginUsername", "admin");
+        //后台管理界面的登录密码
+        initParams.put("loginPassword", "123456");
 
         //后台允许谁可以访问
         //initParams.put("allow", "localhost")：表示只有本机可以访问
