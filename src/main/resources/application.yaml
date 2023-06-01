@@ -1,8 +1,6 @@
 server:
   port: 8888
 spring:
-  application:
-    name: complex
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/complex?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
@@ -31,8 +29,7 @@ spring:
       repositories:
         enabled: true
   elasticsearch:
-    rest:
-      uris: 127.0.0.1:9200
+    uris: 127.0.0.1:9200
   kafka:
     bootstrap-servers: 192.168.85.130:9092,192.168.85.131:9092,192.168.85.132:9092
     producer: # producer 生产者
@@ -44,7 +41,7 @@ spring:
       # value-serializer: com.itheima.demo.config.MySerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
     consumer: # consumer消费者
-      group-id: javagroup # 默认的消费组ID
+      group-id: java-group # 默认的消费组ID
       enable-auto-commit: true # 是否自动提交offset
       auto-commit-interval: 100  # 提交offset延时(接收到消息后多久提交offset)
       # earliest:当各分区下有已提交的offset时，从提交的offset开始消费；无提交的offset时，从头开始消费
@@ -54,20 +51,12 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       # value-deserializer: com.itheima.demo.config.MyDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#######Mybatis 配置#######
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
-#######日志配置#######
+#######logback 日志配置#######
 logging:
   config: classpath:log/logback-spring.xml
   file:
     path: /var/log/complex
     name: complex.log
-#######nacos 注册中心 配置#######
-#nacos:
-#  discovery:
-#    auto-register: true
-#    server-addr: 127.0.0.1:8848
-#    register:
-#      service-name: complex
-#      ip: 127.0.0.1
-#      port: 8848
