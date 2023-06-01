@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfig
 
 @Configuration
 public class ElasticsearchRestTemplateConfig extends AbstractElasticsearchConfiguration {
-    @Value("${spring.elasticsearch.rest.uris}")
+    @Value("${spring.elasticsearch.uris}")
     private String uris;
 
     @Override

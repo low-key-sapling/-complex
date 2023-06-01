@@ -1,7 +1,5 @@
 package com.lowkey.complex.util;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CreationHelper;
@@ -95,7 +93,6 @@ public class ExcelUtil {
 
         Font font2 = workbook.createFont();
 
-        font2.setColor(HSSFColor.RED.index);
 
         font2.setBold(true);
 
