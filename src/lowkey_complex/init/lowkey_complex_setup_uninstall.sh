@@ -11,41 +11,41 @@
 
 
 
-removeReport(){
-	echo "---------------------------UNINSTALL REPORT START `date "+%Y-%m-%d %H:%M:%S"`-----------------------------------------" >> ${logfile}  2>&1 
+removeAppp(){
+	echo "---------------------------UNINSTALL Appp START `date "+%Y-%m-%d %H:%M:%S"`-----------------------------------------" >> ${logfile}  2>&1 
 	#判断进程是否存在，如果不存在就启动它
-	PIDS=`ps -ef |grep ChkProof.Report.jar |grep -v grep | awk '{print $2}'`
+	PIDS=`ps -ef |grep ChkProof.Appp.jar |grep -v grep | awk '{print $2}'`
 	if [ "$PIDS" != "" ]; then
 		kill -9 $PIDS
-		echo "终止Report进程:$PIDS" >> ${logfile}  2>&1 
+		echo "终止Appp进程:$PIDS" >> ${logfile}  2>&1 
 	else
-		echo "Report进程不存在,无需停止" >> ${logfile}  2>&1 
+		echo "Appp进程不存在,无需停止" >> ${logfile}  2>&1 
 	fi
 	
-	if [ -d ${reportPath} ]; then 
-		rm  ${reportPath} -rf
-		echo "${reportPath} 移除结束" >> ${logfile}  2>&1 
+	if [ -d ${ApppPath} ]; then 
+		rm  ${ApppPath} -rf
+		echo "${ApppPath} 移除结束" >> ${logfile}  2>&1 
 	fi
-	chkconfig --del zfnetchkreport
-	echo "zfnetchkreport 服务删除成功" >> ${logfile}  2>&1 
-	rm -rf /etc/init.d/zfnetchkreport
-	echo "zfnetchkreport 开机启动文件删除成功" >> ${logfile}  2>&1 
+	chkconfig --del lowkeyAppp
+	echo "lowkeyAppp 服务删除成功" >> ${logfile}  2>&1 
+	rm -rf /etc/init.d/lowkeyAppp
+	echo "lowkeyAppp 开机启动文件删除成功" >> ${logfile}  2>&1 
 
-	echo "---------------------------UNINSTALL REPORT OVER `date "+%Y-%m-%d %H:%M:%S"`-----------------------------------------" >> ${logfile}  2>&1 
+	echo "---------------------------UNINSTALL Appp OVER `date "+%Y-%m-%d %H:%M:%S"`-----------------------------------------" >> ${logfile}  2>&1 
 }
 
-#当前路径 current_path = 选择的安装路径/plugins/report/runshell
+#当前路径 current_path = 选择的安装路径/plugins/Appp/runshell
 current_path=$(cd `dirname $0`; pwd)
 echo "当前路径:${current_path}"
 
 cd ${current_path}
 
 #日志文件
-logfile=/home/uninstallReport.log
+logfile=/home/uninstallAppp.log
 echo "start uninstall "
-#report安装目录
-reportPath=${current_path}/../../../plugins 
+#Appp安装目录
+ApppPath=${current_path}/../../../plugins 
 
-removeReport
+removeAppp
 
 exit 0
