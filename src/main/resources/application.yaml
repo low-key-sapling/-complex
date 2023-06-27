@@ -83,13 +83,13 @@ management:
       base-path: /monitor
   endpoint:
     health:
-      show-details: NEVER
+      show-details: ALWAYS
     shutdown:
       # 通过指定接口关闭 SpringBoot #默认情况下，除shutdown以外的所有端点均已启用。手动开启
       enabled: true
   # 可以自定义端口
-  # server:
-  #   port: 8089
+  server:
+    port: 8889
 
 # 描述项目基础信息
 info:
