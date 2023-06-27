@@ -68,3 +68,33 @@ logging:
   file:
     path: /var/log/complex
     name: complex.log
+#######actuator 配置#######
+management:
+  endpoints:
+    web:
+      exposure:
+        # 打开所有的监控点
+        include: "*"
+        # 排除端点
+        exclude: shutdown
+      # 自定义监控路径 monitor
+      # 默认值：http://localhost:8016/actuator/*
+      # 配置后：http://localhost:8016/monitor/*
+      base-path: /monitor
+  endpoint:
+    health:
+      show-details: NEVER
+    shutdown:
+      # 通过指定接口关闭 SpringBoot #默认情况下，除shutdown以外的所有端点均已启用。手动开启
+      enabled: true
+  # 可以自定义端口
+  # server:
+  #   port: 8089
+
+# 描述项目基础信息
+info:
+  app:
+    name: lowkey-complex-actuator
+    port: 8888
+    version: 1.0.0
+    author: lowkey
