@@ -59,6 +59,11 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       # value-deserializer: com.itheima.demo.config.MyDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  #######spring boot 安全认证 配置#######
+  security:
+    user:
+      name: admin
+      password: admin
 #######Mybatis 配置#######
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
@@ -90,7 +95,6 @@ management:
   # 可以自定义端口
   server:
     port: 8889
-
 # 描述项目基础信息
 info:
   app:
