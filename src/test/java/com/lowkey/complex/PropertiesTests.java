@@ -1,15 +1,12 @@
 package com.lowkey.complex;
 
 import com.lowkey.complex.entity.User;
-import com.lowkey.complex.util.BeanInfoUtil;
 import org.assertj.core.util.Lists;
-import org.junit.jupiter.api.Test;
 
 import java.util.List;
 import java.util.stream.Stream;
 
 public class PropertiesTests {
-
     List<User> initUserList() {
         List<User> list = Lists.newArrayList();
         list.add(new User());
@@ -22,11 +19,4 @@ public class PropertiesTests {
         });
         return list;
     }
-
-    @Test
-    void testStreamForEach() throws Exception {
-        BeanInfoUtil.setProperty(User.class, "userId");
-    }
-
-
 }

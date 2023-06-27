@@ -15,9 +15,9 @@ import java.util.Map;
 @RefreshScope
 public class NacosConfigController {
 
-    @Value("${user.name}")
+    @Value("${user.name:test}")
     private String name;
-    @Value("${user.age}")
+    @Value("${user.age:1}")
     private String age;
 
     @GetMapping(value = "/config")
