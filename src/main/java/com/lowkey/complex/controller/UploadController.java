@@ -2,7 +2,14 @@ package com.lowkey.complex.controller;
 
 import com.google.common.collect.Lists;
 import com.lowkey.complex.response.ResultEntity;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
@@ -265,5 +272,44 @@ public class UploadController {
 
         }
         return fileList;
+    }
+
+    @RequestMapping(value = "/downloadFile")
+    @ResponseBody
+    public void downloadFile(HttpServletResponse response) {
+        OutputStream os = null;
+        try {
+            os = response.getOutputStream();
+            File file = new File("D:/javaweb/demo.txt");
+            // Spring工具获取项目resources里的文件
+            File file2 = ResourceUtils.getFile("classpath:shell/init.sh");
+            if (!file.exists()) {
+                return;
+            }
+            response.reset();
+            response.setHeader("Content-Disposition", "attachment;filename=demo.txt");
+            response.setContentType("application/octet-stream; charset=utf-8");
+            os.write(FileUtils.readFileToByteArray(file));
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            IOUtils.closeQuietly(os);
+        }
+
+    }
+
+    /**
+     * Spring下载文件
+     * 利用 ResponseEntity<byte[]> 实现下载单个文件的方法：
+     */
+    @RequestMapping(value = "/download")
+    public ResponseEntity<byte[]> download(HttpServletRequest request) throws IOException {
+        // 获取项目webapp目录路径下的文件
+        String path = request.getSession().getServletContext().getRealPath("/");
+        File file = new File(path + "/soft/javaweb.txt");
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+        headers.setContentDispositionFormData("attachment", "javaweb.txt");
+        return new ResponseEntity<byte[]>(org.apache.commons.io.FileUtils.readFileToByteArray(file), headers, HttpStatus.CREATED);
     }
 }
