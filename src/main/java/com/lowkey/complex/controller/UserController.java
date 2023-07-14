@@ -1,5 +1,6 @@
 package com.lowkey.complex.controller;
 
+import com.github.benmanes.caffeine.cache.Cache;
 import com.lowkey.complex.entity.User;
 import com.lowkey.complex.response.ResultEntity;
 import com.lowkey.complex.service.IUserService;
@@ -21,10 +22,12 @@ import java.util.List;
 public class UserController {
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
-    final IUserService userService;
+    private final IUserService userService;
+    private final Cache<String, Object> caffeineCache;
 
-    public UserController(IUserService userService) {
+    public UserController(IUserService userService, Cache<String, Object> caffeineCache) {
         this.userService = userService;
+        this.caffeineCache = caffeineCache;
     }
 
     @RequestMapping("/list")
