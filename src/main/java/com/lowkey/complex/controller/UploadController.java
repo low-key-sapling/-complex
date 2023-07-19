@@ -302,7 +302,7 @@ public class UploadController {
      * Spring下载文件
      * 利用 ResponseEntity<byte[]> 实现下载单个文件的方法：
      */
-    @RequestMapping(value = "/download")
+    @RequestMapping(value = "/download/file")
     public ResponseEntity<byte[]> download(HttpServletRequest request) throws IOException {
         // 获取项目webapp目录路径下的文件
         String path = request.getSession().getServletContext().getRealPath("/");
