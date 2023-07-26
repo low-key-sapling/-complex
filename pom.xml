@@ -159,6 +159,12 @@
             <artifactId>google-collect</artifactId>
             <version>snapshot-20080530</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-compress</artifactId>
+            <version>1.21</version>
+        </dependency>
         <!-- ES 客户端 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
