@@ -19,8 +19,6 @@ import java.util.concurrent.*;
 
 @Slf4j
 public class CompressUtils extends CompressUtil {
-    private final static ExecutorService compressExecutor = new ThreadPoolExecutor(5, 10, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<>(2000), new ThreadFactoryBuilder().setNameFormat("compressFileList-pool-").build());
-
     /**
      * 批量压缩文件 v4.0
      * 多线程压缩文件
@@ -29,6 +27,8 @@ public class CompressUtils extends CompressUtil {
      * @param zipOutName   压缩后的文件名称
      **/
     public static void compressFileList(String zipOutName, List<String> fileNameList) {
+        //compressExecutor使用完成后会自动shutdown
+        ExecutorService compressExecutor = new ThreadPoolExecutor(5, 10, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<>(2000), new ThreadFactoryBuilder().setNameFormat("compressFileList-pool-").build());
         try (OutputStream outputStream = Files.newOutputStream(Paths.get(zipOutName));
              ZipArchiveOutputStream zipArchiveOutputStream = new ZipArchiveOutputStream(outputStream)) {
             ParallelScatterZipCreator parallelScatterZipCreator = new ParallelScatterZipCreator(compressExecutor);
