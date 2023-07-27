@@ -24,7 +24,7 @@ public class CompressUtils extends CompressUtil {
      * 多线程压缩文件
      *
      * @param fileNameList 需要压缩的文件名称列表(包含相对路径)
-     * @param zipOutName   压缩后的文件名称
+     * @param zipOutName   压缩后的文件名称：需要是全路径
      **/
     public static void compressFileList(String zipOutName, List<String> fileNameList) {
         //compressExecutor使用完成后会自动shutdown
