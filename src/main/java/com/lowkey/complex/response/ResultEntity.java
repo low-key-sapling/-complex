@@ -1,13 +1,12 @@
 package com.lowkey.complex.response;
 
-import java.io.IOException;
-
-import javax.servlet.http.HttpServletResponse;
-
 import com.alibaba.fastjson.JSON;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 /**
  * @author admin
@@ -54,11 +53,13 @@ public class ResultEntity<T> {
      * @param value       响应内容
      * @throws IOException IOException
      */
-    public static void makeResponse(HttpServletResponse response, String contentType,
-                                    int status, Object value) throws IOException {
+    public static void makeResponse(HttpServletResponse response, String contentType, int status, Object value) throws IOException {
+        // 允许跨域
+        response.setHeader("Access-Control-Allow-Origin", "*");
+        // 允许自定义请求头token(允许head跨域)
+        response.setHeader("Access-Control-Allow-Headers", "token, Accept, Origin, X-Requested-With, Content-Type, Last-Modified");
         response.setContentType(contentType);
         response.setStatus(status);
-        response.getOutputStream()
-                .write(JSON.toJSONString(value).getBytes());
+        response.getOutputStream().write(JSON.toJSONString(value).getBytes());
     }
 }

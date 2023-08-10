@@ -1,6 +1,7 @@
 package com.lowkey.complex.controller;
 
 import com.google.common.collect.Lists;
+import com.lowkey.complex.entity.User;
 import com.lowkey.complex.response.ResultEntity;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
@@ -132,10 +133,18 @@ public class UploadController {
         }
     }
 
+    /**
+     * 下载文件
+     *
+     * @param request  request请求对象
+     * @param response response相应对象
+     * @param user     请求参数-接收前端formData对象
+     */
     @RequestMapping("/download")
-    public void downloadFile(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    @ResponseBody
+    public void downloadFile(HttpServletRequest request, HttpServletResponse response, User user) throws IOException {
         //得到要下载的文件名
-        String fileName = request.getParameter("filename");  //23239283-92489-阿凡达.avi
+        String fileName = request.getParameter("filename");
         fileName = new String(fileName.getBytes("iso8859-1"), StandardCharsets.UTF_8);
         //上传的文件都是保存在/WEB-INF/upload目录下的子目录当中
         String fileSaveRootPath = request.getServletContext().getRealPath("/WEB-INF/upload");
@@ -149,25 +158,25 @@ public class UploadController {
             return;
         }
         //处理文件名
-        String realname = fileName.substring(fileName.indexOf("_") + 1);
-        //设置响应头，控制浏览器下载该文件
-        response.setHeader("content-disposition", "attachment;filename=" + URLEncoder.encode(realname, String.valueOf(StandardCharsets.UTF_8)));
-        //读取要下载的文件，保存到文件输入流
-        FileInputStream in = new FileInputStream(path + "\\" + fileName);
-        //创建输出流
-        OutputStream out = response.getOutputStream();
-        //创建缓冲区
-        byte[] buffer = new byte[1024];
-        int len = 0;
-        //循环将输入流中的内容读取到缓冲区当中
-        while ((len = in.read(buffer)) > 0) {
-            //输出缓冲区的内容到浏览器，实现文件下载
-            out.write(buffer, 0, len);
+        String realName = fileName.substring(fileName.indexOf("_") + 1);
+        //设置响应头，控制浏览器下载该文件，此处的文件名要进行编码处理否则前端显示会乱码
+        response.setHeader("content-disposition", "attachment;filename=" + URLEncoder.encode(realName, String.valueOf(StandardCharsets.UTF_8)));
+        try (//读取要下载的文件，保存到文件输入流
+             FileInputStream in = new FileInputStream(path + "\\" + fileName);
+             //创建输出流
+             OutputStream out = response.getOutputStream()) {
+
+            //创建缓冲区
+            byte[] buffer = new byte[1024];
+            int len = 0;
+            //循环将输入流中的内容读取到缓冲区当中
+            while ((len = in.read(buffer)) > 0) {
+                //输出缓冲区的内容到浏览器，实现文件下载
+                out.write(buffer, 0, len);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
-        //关闭文件输入流
-        in.close();
-        //关闭输出流
-        out.close();
     }
 
     /**

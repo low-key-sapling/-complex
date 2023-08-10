@@ -36,4 +36,10 @@ public class UserController {
         logger.info("get user list.");
         return ResultEntity.successWithData(userService.list());
     }
+    @RequestMapping("/login")
+    @ResponseBody
+    public ResultEntity<String> getLogin() {
+        logger.info("get user list.");
+        return ResultEntity.successWithData("hahaah");
+    }
 }
