@@ -1,5 +1,6 @@
 package com.lowkey.complex.controller;
 
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.github.benmanes.caffeine.cache.Cache;
 import com.lowkey.complex.entity.User;
 import com.lowkey.complex.response.ResultEntity;
@@ -41,5 +42,15 @@ public class UserController {
     public ResultEntity<String> getLogin() {
         logger.info("get user list.");
         return ResultEntity.successWithData("hahaah");
+    }
+
+    @RequestMapping("/update")
+    @ResponseBody
+    public ResultEntity<String> update() {
+        logger.info("get user list.");
+        UpdateWrapper<User> objectUpdateWrapper = new UpdateWrapper<>();
+        objectUpdateWrapper.set("asd", "asd");
+        objectUpdateWrapper.eq("", "");
+        return ResultEntity.successWithData("");
     }
 }

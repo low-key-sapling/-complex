@@ -94,7 +94,7 @@ public class StreamTests {
     void testStreamListToMapCustomKey() {
         //List转map，自定义key
         List<User> Users = initUserList();
-        Map<String, User> UserMap = StreamSafe.of(Users).collect(Collectors.toMap(temp -> String.format("%s-%s", temp.getId(), temp.getUserName()), Function.identity(), (o, n) -> o));
+        Map<String, User> UserMap = StreamSafe.of(Users).collect(Collectors.toMap(temp -> String.format("%s-%s", temp.getId(), temp.getUsername()), Function.identity(), (o, n) -> o));
         UserMap.forEach((key, value) -> System.out.printf("key:%s,value:%s%n", key, value));
     }
 

@@ -7,7 +7,7 @@ spring:
     nacos:
       #######nacos 注册中心 配置#######
       discovery:
-        server-addr: 20.10.110.137:8848
+        server-addr: 20.10.110.78:8848
       #######nacos 配置中心 配置#######
       #配置dataId对应${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
       #未设置值则为空，优先寻找complex-dev.yaml，没有配置则寻找complex.yaml
