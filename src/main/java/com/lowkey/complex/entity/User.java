@@ -42,7 +42,7 @@ public class User implements Serializable, UserDetails, CredentialsContainer {
     /**
      * 地址
      */
-    private String address;
+    private Address address;
 
     /**
      * 真实姓名

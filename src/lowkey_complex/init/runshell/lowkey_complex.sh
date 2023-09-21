@@ -80,7 +80,7 @@ is_watch_exist() {
 
 #启动方法,启动watchDog
 
-startApp=nohup $JAVA/bin/java  ${jvm_option} -Dcustom.srvname=lowkey_complex -jar ${APP} --logging.config=config/log/logback-spring.xml >/dev/null 2>&1 &
+startApp=nohup $JAVA/bin/java  ${jvm_option} -Dcustom.srvname=lowkey_complex -jar ${APP} --logging.config=$lowkey_complex_home/server/config/log/logback-spring.xml >/dev/null 2>&1 &
 
 start() {
     is_exist

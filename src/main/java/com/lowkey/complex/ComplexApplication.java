@@ -14,9 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @EnableScheduling
 @MapperScan("com.lowkey.complex.**.mapper")
-@SpringBootApplication
-        (exclude = {ElasticsearchDataAutoConfiguration.class, ElasticsearchRepositoriesAutoConfiguration.class,
-                ElasticsearchRestClientAutoConfiguration.class, ElasticSearchRestHealthContributorAutoConfiguration.class})
+@SpringBootApplication(exclude = {ElasticsearchDataAutoConfiguration.class, ElasticsearchRepositoriesAutoConfiguration.class, ElasticsearchRestClientAutoConfiguration.class, ElasticSearchRestHealthContributorAutoConfiguration.class})
 public class ComplexApplication {
     public static void main(String[] args) {
         SpringApplication.run(ComplexApplication.class, args);
