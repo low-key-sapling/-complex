@@ -102,3 +102,10 @@ info:
     port: 8888
     version: 1.0.0
     author: lowkey
+# 微信公众号配置
+wechat:
+  appid: wx565eafe8570bdc6a
+  appsecret: a47be67fcd6853c3cc54270ac35b037b
+  interface:
+    config:
+      token: wechatLowkeyToken
