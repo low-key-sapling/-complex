@@ -48,7 +48,10 @@ public class NetworkMusicPlayer {
     //rankid=52767/快手热门歌曲
     //rankid=24971/DJ
     //rankid=44412/说唱
-    static final String rankSongListUrl = "https://m.kugou.com/rank/info/?rankid=52767&json=true&page=";
+    static List<String> rankidList = Lists.newArrayList("8888", "6666", "59703", "52144", "52767", "24971", "44412");
+    static String rankid = "52144";
+    static int rankidCount = 0;
+    static final String rankSongListUrl = "https://m.kugou.com/rank/info/?json=true&rankid=";
     //音乐歌单,音乐排行榜:返回结果包含specialid
     static final String songListUrl = "https://m.kugou.com/plist/index&json=true";
     //获取 歌单下的音乐列表，需要添加 specialid:歌单ID:specialid 125032
@@ -77,7 +80,7 @@ public class NetworkMusicPlayer {
     public static void main(String[] args) throws Exception {
         while (true) {
             try {
-                List<String> songIdList = getSongIdList(page);
+                List<String> songIdList = getSongIdList();
                 playSong(songIdList);
                 page++;
             } catch (Exception e) {
@@ -87,9 +90,9 @@ public class NetworkMusicPlayer {
         }
     }
 
-    private static List<String> getSongIdList(int page) throws Exception {
+    private static List<String> getSongIdList() throws Exception {
         ArrayList<String> songIdList = Lists.newArrayList();
-        String post = httpClientUtil.post(rankSongListUrl + page);
+        String post = httpClientUtil.post(rankSongListUrl + rankid + "&page=" + page);
         logger.debug("post:{}", post);
         HashMap<String, JSONObject> hashMap = JSON.parseObject(post, HashMap.class);
         JSONObject songs = hashMap.get("songs");
@@ -100,6 +103,14 @@ public class NetworkMusicPlayer {
             }
         }
         logger.info("songIdList size = {}", songIdList.size());
+        if (songIdList.size() == 0) {
+            page = 1;
+            rankid = rankidList.get(rankidCount);
+            rankidCount++;
+            if (rankidCount == 7) {
+                rankidCount = 0;
+            }
+        }
         return songIdList;
     }
 
