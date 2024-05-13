@@ -18,16 +18,16 @@
     <springProperty scope="context" name="server_port" source="server.port"/>
 
     <!-- 日志输出的格式如下 -->
+    <!-- 支持的颜色字符编码 %black 黑色 %red 红色 %green 绿色 %yellow 黄色 %blue 蓝色 %magenta 洋红色 %cyan 青色 %white 白色 %gray 灰色 %highlight 高亮色 -->
     <!-- appID | module |  dateTime | level | requestID | traceID | requestIP | userIP | serverIP | serverPort | processID | thread | location | detailInfo-->
     <!-- value="%clr(${spring_application_name}){cyan}|%clr(%module){blue}|%clr(%d{ISO8601}){faint}|%clr(%p)|%X{requestId}|%X{X-B3-TraceId:-}|%X{requestIp}|%X{userIp}|%ip|${server_port}|${PID}|%clr(%t){faint}|%clr(%.40logger{39}){cyan}.%clr(%method){cyan}:%L|>>>%n%m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>-->
     <!-- CONSOLE_LOG_PATTERN属性会在console-appender.xml文件中引用 -->
     <property name="CONSOLE_LOG_PATTERN"
-              value="%clr(${spring_application_name}){cyan}|%clr(%module){blue}|%clr(%d{ISO8601}){faint}|%clr(%p)|%ip|${server_port}|${PID}|%clr(%t){faint}|%clr(%.40logger{50}){cyan}.%clr(%method){cyan}:%L|>>>%n%m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
+              value="%clr(${spring_application_name}){cyan}|%clr(%-15module){blue}|%clr(%d{ISO8601}){faint}|%clr(%-5p)|%ip|${server_port}|${PID}|%clr(%-35t){faint}|%clr(%-52logger{52}){cyan}|%clr(%-28method){cyan}:%-5L| %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
 
     <!-- FILE_LOG_PATTERN属性会在logback-defaults.xml文件中引用 -->
     <property name="FILE_LOG_PATTERN"
-              value="${spring_application_name}|%module|%d{ISO8601}|%p|%ip|${server_port}|${PID}|%t|%.40logger{39}.%method:%L|%m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
-
+              value="${spring_application_name}|%-15module|%d{ISO8601}|%-5p|%ip|${server_port}|${PID}|%35t|%-52logger{52}|%-28method:%-5L|%m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
     <!--
         将 org/springframework/boot/logging/logback/defaults.xml 文件下的默认logger写过来
      -->
