@@ -24,6 +24,7 @@ import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 public class NetworkMusicPlayer {
     //设置Main函数的日志级别
@@ -49,7 +50,7 @@ public class NetworkMusicPlayer {
     //rankid=24971/DJ
     //rankid=44412/说唱
     static List<String> rankidList = Lists.newArrayList("8888", "6666", "59703", "52144", "52767", "24971", "44412");
-    static String rankid = "52144";
+    static String rankid = "8888";
     static int rankidCount = 0;
     static final String rankSongListUrl = "https://m.kugou.com/rank/info/?json=true&rankid=";
     //音乐歌单,音乐排行榜:返回结果包含specialid
@@ -136,6 +137,9 @@ public class NetworkMusicPlayer {
             songList.add(songMap);
             if (StringUtils.isBlank(fileUrl)) {
                 HashMap<String, Object> songDetail1 = JSON.parseObject(song, HashMap.class);
+                if (Objects.isNull(songDetail1.get("backup_url"))) {
+                    continue;
+                }
                 String s = songDetail1.get("backup_url").toString();
                 if (StringUtils.isNotBlank(s) && !"{}".equals(s)) {
                     JSONArray backupUrl = JSON.parseArray(songDetail1.get("backup_url").toString());
