@@ -5,7 +5,8 @@ http://x111.bdwl.asia/api/getXSign
 http://114.55.90.197:5488/api/getXSign
 http://47.120.79.104:9999/api/getXSign
 http://elm.iiliil.cn/api/getXSign
-http://x111.bdwl.asia/api/getXSign
 http://124.70.10.200:18848/api/getXSign
 http://184.57.23.12:1648/api/getXSign
 http://154.201.83.32:9922/api/getXSign
+http://api.94wan.fun/api/get/xsign
+http://mzkj666.cn:9324/encrypt
