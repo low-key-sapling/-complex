@@ -1,5 +1,85 @@
 export signhost='3.xjyyds.cf:18848'
 
+# 招商信诺
+export ZSXN='oSWTishtFMENAzyS39dD7upE5JqI#okz730JxZv5Zr8csFdBUU4-gER2Y#KiORiD7VGh5FppB+uCdoPoXd6icYnkUW7Mtoeut1kyCHdJ7yw4RrvUPcJ61XGQEvdRUVuZO0yKmTzKNPYPCoI8ly6dy2MsrIZeTl6QRXgRhuQJuUenKc/bvcIKHtWFdM5+dbi3D7tEb8h0cgwu4CBvZhbRO28G9i9ozfSWqBNXs='
+
+# 快手极速版
+export KSJSB_COOKIE7='kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSoAEL-yiH0RFF5IRmMqAJNCKTnOasoONtPH_E8aZ_jkCFdvPjfESkkTlFjyY7INWykJrmGjE67b2iL5QtmoZyD8frCGtfhKA8prq-3qVf4onQNdVvNvnkxidK2DBUwWERDodB9MeYf4OIPJLitAUp20Md_hWsx4SZ3juc1chxofua7cqHmQSbEXb_bwImWNDIoS0U4MvfB1HfTue0wvP_j2VyGhJrNN-fL8lNH4AKLNFPdkh-L7kiIBJvE3dAjSjtYODvhJR8Yng3L91hNS-Iw0E7yXcZhMy1KAUwAQ;__NSWJ=;region_ticket=RT_8A1A77D9379E206548FEE1FD8D0EB73DB7A26470CA0124725A947E7890947AE7131EC2D83'
+
+# 探子报
+export yuanshen_tzb="932d6e39979926b847e1f07b4f26ee2c
+02c2d09218294a4c1851fb281d27ade1
+c9bd256d1d879a85c0064b3668d7e792
+7212a5aa6c8ddf2de80a9d7271ca888d"
+# 探子报天天抽奖
+export tzbCk='[
+	{
+		"userNameBak": "0730",
+  "random": "8yEkH4hx7Y",
+  "terminal": "xcx",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275",
+  "content-type": "application/x-www-form-urlencoded",
+  "timestamp": "1730767230",
+  "xweb_xhr": "1",
+  "user-token": "932d6e39979926b847e1f07b4f26ee2c",
+  "uuid": "5661385c-43a2-4e7d-a334-99d0495abae8",
+  "sign": "6e746649724ec678f6264823fca26b9b"
+	},
+	{
+		"userNameBak": "5344",
+  "random": "anSHBPfHWe",
+  "terminal": "xcx",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275",
+  "content-type": "application/x-www-form-urlencoded",
+  "timestamp": "1730767461",
+  "xweb_xhr": "1",
+  "user-token": "02c2d09218294a4c1851fb281d27ade1",
+  "uuid": "5f1f64d3-7786-49e8-af78-addddec7dfe0",
+  "sign": "3f04b1e550b6285bb40967ef1db6be6d"
+	},
+	{
+		"userNameBak": "8104",
+  "random": "FQ22swiHwJ",
+  "terminal": "xcx",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275",
+  "content-type": "application/x-www-form-urlencoded",
+  "timestamp": "1730767416",
+  "xweb_xhr": "1",
+  "user-token": "c9bd256d1d879a85c0064b3668d7e792",
+  "uuid": "30d8f378-dd24-4558-a081-a64ec422edde",
+  "sign": "8e106b0a72d0cf60b56ca5436a0f9a08"
+	},
+	{
+		"userNameBak": "5833",
+  "random": "weXay3nyCd",
+  "terminal": "xcx",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275",
+  "content-type": "application/x-www-form-urlencoded",
+  "timestamp": "1730766670",
+  "xweb_xhr": "1",
+  "user-token": "7212a5aa6c8ddf2de80a9d7271ca888d",
+  "uuid": "8b8b1871-2f15-4629-a93e-bc0333f11e08",
+  "sign": "b107fdd9e19e9c6843dc06d842d87a44"
+	}
+]'
+
+#好奇车生活
+export hqcsh='351f86343db2affc7526396b95e3e10be3072438d9e1d241a50d519ea35e4d25
+4a7de2ea39879b6edcd831399ecb65e2e24c28714031773257a877d4fdc5bac3
+74c7eaf929b5ba2d7e7ad8ae91cc8b768c5b7e31489a3a4ca5beeffceafcd63f'
+
+#变量名kwyy
+#抓appuid#devid#q#phone的值用#连接
+#0730#5344
+export kwyy='2487459437#2487459437#Sy1Jlx5q/p7ePEmVLLpd9ZWpJ/YUByYbuWBNowIQDQPjDdnVLZKVPEnkJmJ1mhr7xeionnSus kp DqrexJ9iGaWa5qTyZlpoUmH6jKtMA6IVHuaBAtoVW5V0aspb3wUlQ5bnQaIasTZ652i5TjdU4imsemk5UkCyv4mzBB9 EqPurTBDt0P5VkozHB6/nXo  QbibqMVvvN5ssPLJNHrH0 WGxAZMcYmFWXIWJ2tfjLmuHb0vzq59yRbG6ltMTVPbQEWDcr4Q5bUGvIhxLVz5Je3riwwNASacX6FyiWvaHeluKVVaopVTnhG1T0hgHriKax6aTlSQIk6rfNvKF/MQ==#lZTIEb2ZvADjmxNJ7coUyw==
+2703426505#2703426505#Sy1Jlx5q/p4 4VgSKrEa 77UcTKbIgEbklpfGvrnwgXw5HOZpGzBwdQJHJul7dlhXY7looZ1TTSUk3zYlBECtp1C47 OeZeNcvh4AQP3cubF6KiedK6z6dCrIJJHONqlJZFcvZQVj2pLlyrgZk2yC3BFIbOaS89G/MGpBogYkoGVDludBohqxNnrnaLlON1TiKax6aTlSQLK/ibMEH34So 6tMEO3Q/lWSjMcHr dej75BuJuoxW 83myw8sk0esfT5YbEBkxxiYVZchYna1 Mua4dvS/Orn3JFsbqW0xNU9tARYNyvhDltQa8iHEtXPFrnjWl0tm94J2u5R74QNDhS82tgL8kLjiapWqwTeH6n4t8zGNojAV08eZgvO6 8r#ZOOVY+00cKhhff4IwC93+A==
+2703445678#2703445678#Sy1Jlx5q/p5FW/yz3zBYjTVUfq7x8HFDuWBNowIQDQPjDdnVLZKVPEnkJmJ1mhr7xeionnSus lOzd4fJsbwsDjoPOvYLgR83WXeg0gWqHtNlTzK0S6g maPbsyw7I3YlQ5bnQaIasTZ652i5TjdU4imsemk5UkCyv4mzBB9 EqPurTBDt0P5VkozHB6/nXo  QbibqMVvvN5ssPLJNHrH0 WGxAZMcYmFWXIWJ2tfjLmuHb0vzq59yRbG6ltMTVPbQEWDcr4Q5bUGvIhxLVz5Je3riwwNASacX6FyiWvaGY9jec/5jrLznhG1T0hgHriKax6aTlSQIk6rfNvKF/MQ==#19016418104
+2704139527#2704139527#Sy1Jlx5q/p5 uaehOJSsjzAqgQL86q6LuWBNowIQDQPjDdnVLZKVPEnkJmJ1mhr7xeionnSus lrbx75YDnkK5ByT2Ims5kewItQEp5 s ygjE0ZzIqEvdHdffvx5KbWlQ5bnQaIasTZ652i5TjdU4imsemk5UkCyv4mzBB9 EqPurTBDt0P5VkozHB6/nXo  QbibqMVvvN5ssPLJNHrH0 WGxAZMcYmFWXIWJ2tfjLmuHb0vzq59yRbG6ltMTVPbQEWDcr4Q5bUGvIhxLVz1 /Zkvs sJ95gBFSE9QKXKMADl/sZwAtTnhG1T0hgHriKax6aTlSQIk6rfNvKF/MQ==#15194115833'
+# 得物APP 探索中的玩一玩 所有游戏的入口都在那里  请跑任务之前手动玩一次
+# 变量名:dewuCK
+# 变量值:抓app.dewu.com   请求头Headers中的x-auth-token  去掉Bearer # 连接cookie中dutoken得值 可以直接搜dutoken  # 连接SK
+# 三个值 x-auth-token的值去掉Bearer#dutoken的值#SK的值
+# isPromiseAll 是否开启并发 默认开启
 export dwnc_data='eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3Mjk1NzgyNTcsImV4cCI6MTc2MTExNDI1NywiaXNzIjoiMmE5NjA0ZDM1Mzk1Njc5ZiIsInN1YiI6IjJhOTYwNGQzNTM5NTY3OWYiLCJ1dWlkIjoiMmE5NjA0ZDM1Mzk1Njc5ZiIsInVzZXJJZCI6MTY3NjUyOTE2OCwiaXNHdWVzdCI6ZmFsc2UsIlNLIjoiOU96V0EwZ21jN25wU3FEcnpzSnhFUU5QTFNYWmx5M0NLSFNpMXIwVWhDR3I0VVdaZ0M1eDZ0RktFRE9oUG5TU1h0WU9CUUlRbmxPY0ExTE1EeDJ4SnpjQmtQMXYifQ.Zk1WDfHYSWMBWqXRh0Q2rSv8CohaCsjUeuTfaeZfJ3sSM1eXNsX9W5dpqhKXfPwyLnJpdzVQMJ5CGNG3w208OGNOWogsP_aA0D6kMGjRmFUJHgctxqYzaWwkPGZvjHFVH6pCmJM0rEvT1R4FRX2Dy9IA7H11Ogams7yrXGCUY5raqFUHqNwi8i1yc-6P6NR1s19VYWL6rR6HDAf_H9qy-dRb_u6Jot-FWDwiqfEicqH2yZHZqL2oCcffGnjH9hPJ8iG_9qd2o7R9GY8iHIaVlzlLdUayUGKVmWWyo_MmY167t88Ck3PGmh-5DLXNILOhOcmXKtdZJUXMKpYf_u-lng&9OzWA0gmc7npSqDrzsJxEQNPLSXZly3CKHSi1r0UhCGr4UWZgC5x6tFKEDOhPnSSXtYOBQIQnlOcA1LMDx2xJzcBkP1v&20241022142314992d8c2eedf9baffd21537813242ad0971a0516b7e5d4fe4&18a041d4-ee6b-d96c-4d17-17a4971b5993-1729578287135
 eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3Mjk1ODI2MDIsImV4cCI6MTc2MTExODYwMiwiaXNzIjoiNWE0Y2YyOTY3ODc0ZjlhNyIsInN1YiI6IjVhNGNmMjk2Nzg3NGY5YTciLCJ1dWlkIjoiNWE0Y2YyOTY3ODc0ZjlhNyIsInVzZXJJZCI6MjM4NDE2MzUxMiwiaXNHdWVzdCI6ZmFsc2UsIlNLIjoiOU96V0NkUHQ0R1psUFBBeWFzTENKQk5kcDVmR3o3TmR5MGRWbGJMTEtNUG9nbmZvaE5ZUE1kWHMzdTFlbG5ubVZ0ZXFMbUY4Q05CcmNrZHFGYjFHckdwNmJDMXoifQ.jvLnLAS2zbGgyUXe9eJFemY0meLMlc7VQIijQqY2CtF4gD6vjkd2FpygumVEZLMK1g2u0ankvbgk2JaeLVK2B-R6DE1mI-bN0Vq5sCmMkg0uxSbL3vG7gntfrVtmsxooszGKoySQimmVL30KIDhnUvPClfI867lvMah2luah1EsoliOv87ZkTEh-Ms3OFwunt4xVrLVfGQs_DEGPsvuCGJivFT0uy0EL4eIcjnsGX2cRoBIr4Pj9hgoHxOoUtqhRio-j58aUA_4nKSFnhnEiVbyiUlOVezxCzFzhQcwH90NH3vzz0SfI782Fds_k_8U96FtrHH5dOu4WfIrnuiL5dA&9OzWCdPt4GZlPPAyasLCJBNdp5fGz7Ndy0dVlbLLKMPognfohNYPMdXs3u1elnnmVteqLmF8CNBrckdqFb1GrGp6bC1z&20241022153059d2afe750f360b9c84beb3dcda39de7bc21a062fdafaadf05&b48cf3ba-ca5d-047e-0030-f4f01462cbd8-1729582611977'
 export dewuCK='eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3Mjk1ODI2MDIsImV4cCI6MTc2MTExODYwMiwiaXNzIjoiNWE0Y2YyOTY3ODc0ZjlhNyIsInN1YiI6IjVhNGNmMjk2Nzg3NGY5YTciLCJ1dWlkIjoiNWE0Y2YyOTY3ODc0ZjlhNyIsInVzZXJJZCI6MjM4NDE2MzUxMiwiaXNHdWVzdCI6ZmFsc2UsIlNLIjoiOU96V0NkUHQ0R1psUFBBeWFzTENKQk5kcDVmR3o3TmR5MGRWbGJMTEtNUG9nbmZvaE5ZUE1kWHMzdTFlbG5ubVZ0ZXFMbUY4Q05CcmNrZHFGYjFHckdwNmJDMXoifQ.jvLnLAS2zbGgyUXe9eJFemY0meLMlc7VQIijQqY2CtF4gD6vjkd2FpygumVEZLMK1g2u0ankvbgk2JaeLVK2B-R6DE1mI-bN0Vq5sCmMkg0uxSbL3vG7gntfrVtmsxooszGKoySQimmVL30KIDhnUvPClfI867lvMah2luah1EsoliOv87ZkTEh-Ms3OFwunt4xVrLVfGQs_DEGPsvuCGJivFT0uy0EL4eIcjnsGX2cRoBIr4Pj9hgoHxOoUtqhRio-j58aUA_4nKSFnhnEiVbyiUlOVezxCzFzhQcwH90NH3vzz0SfI782Fds_k_8U96FtrHH5dOu4WfIrnuiL5dA#5d2d8b55f4202aa86e5f1c81c61c77d9970f10b849fb75152f97b9bacbfe7d30d8eca4986d40a36940398063c8c4261051b56bc79f8d8771e9584bb9ad4dcd9e05c9146a923d89bdc7acd4b6caf833fe|2384163512|1729582602|37b1e8f190d65f03b6ab3b115abb4bdd632b0e31|1-0|d41d8cd965f0d52a#9OzWCdPt4GZlPPAyasLCJBNdp5fGz7Ndy0dVlbLLKMPognfohNYPMdXs3u1elnnmVteqLmF8CNBrckdqFb1GrGp6bC1z#20241022153059d2afe750f360b9c84beb3dcda39de7bc21a062fdafaadf05#b48cf3ba-ca5d-047e-0030-f4f01462cbd8-1729582611977
@@ -13,15 +93,14 @@ export UAdefult_dewu='Mozilla/5.0 (Linux; Android 10; MI 8 Lite Build/QKQ1.19091
 #  x-ac-device-id (可选)
 # 把这两个用#连起来填到变量 tptCookie 里, 多账号换行或&或@隔开
 # 不填x-ac-device-id的话脚本每次运行会随机生成一个#2a9604d35395679f
-export tptCookie='eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOltdLCJzdWIiOiIxNzI5MDY5MjE3NzcyQm1TTVY4MmczZ0ZsQVE4NktieFR2aCIsInVzZXJfbmFtZSI6IjY1MzI2MjY3ODk2MTI5OTQ1NjAiLCJsb2dpY19pZCI6NDIyMDYxOTM0MjMwNDM3ODg4LCJpc3MiOiJraHQudGFpcGluZyIsInNjb3BlIjpbXSwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwianRpIjoiMTcyOTA2OTUyMTMyMGZSVHR5VE82WEpyNWF3MENpUDJDZSIsImFkZGl0aW9uYWxJbmZvIjp7fSwiaWF0IjoxNzI5MDY5NTIxLCJleHAiOjE3OTM4Njk1MjEsImF1dGhvcml0aWVzIjpbXSwiY2xpZW50X2lkIjoiVFBUX0FQUCIsInJvbGVfdHlwZXMiOiJDIn0.ShsUbkgcVKw2nheDAdcJ7U-49JLh8hdrzwOJllZ_WqR8DNqno4kv_ePGtvOpGOvwofwzHhH5nQ9XcdbgxmX69i2bG_FTfTrpHr7TZXM_yvrgsFD4bB0lxTrjqW6BnoHuv0YNYJ0md_1m6sfcYIN1QDnFQIEj40yMAgdDssoKRQo
-eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOltdLCJzdWIiOiIxNzI5MTcyNzg4NzU5QjZXalBjMXNTaGFvUGZGM3k3NzdLbiIsInVzZXJfbmFtZSI6IjgwODUyMzM1MTA2OTExODQ2NCIsImxvZ2ljX2lkIjo0MjI4NzI3Nzg1OTQwMTMxODUsImlzcyI6ImtodC50YWlwaW5nIiwic2NvcGUiOltdLCJncmFudF90eXBlIjoicGFzc3dvcmQiLCJqdGkiOiIxNzI5MTcyODMyMDg4QmZJR1daRFgwRjliSElGWjkyWElpVyIsImFkZGl0aW9uYWxJbmZvIjp7fSwiaWF0IjoxNzI5MTcyODMyLCJleHAiOjE3OTM5NzI4MzIsImF1dGhvcml0aWVzIjpbXSwiY2xpZW50X2lkIjoiVFBUX0FQUCJ9.iHjFNd2culzU92Ku6F5eOInjTSaRPHlZZNdpd21gqWIqF8yIjuqd4aN_RxSj9-ZLzho5_jpO5z-shNIqn86DNomm81NDQ9GEqoOOWGi4YhLR-E8ORbnDcZGoFUIlbmk2N1bXuFRXPq9se4Ol6I3eNuz_EySUUlKhHtEp3D2kkgo
-'
+export tptCookie='eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOltdLCJzdWIiOiIxNzI5MDY5MjE3NzcyQm1TTVY4MmczZ0ZsQVE4NktieFR2aCIsInVzZXJfbmFtZSI6IjY1MzI2MjY3ODk2MTI5OTQ1NjAiLCJsb2dpY19pZCI6NDIyMDYxOTM0MjMwNDM3ODg4LCJpc3MiOiJraHQudGFpcGluZyIsInNjb3BlIjpbXSwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwianRpIjoiMTcyOTQ5NjkwODgwNEN0aEx2ZFJ0b0hpeW5MbjduYXYwY04iLCJhZGRpdGlvbmFsSW5mbyI6e30sImlhdCI6MTcyOTQ5NjkwOCwiZXhwIjoxNzk0Mjk2OTA4LCJhdXRob3JpdGllcyI6W10sImNsaWVudF9pZCI6IlRQVF9BUFAiLCJyb2xlX3R5cGVzIjoiQyJ9.JRuxH2FKT_CYMiu87o3vHiXDMUy701eZjGLt1LdqERSUr1f4ECxMiDHiDQzy1LlfGdSV5EJDJWXB7q7e-XlI1iGfT9EzAoEEva1pVgi6zNO4znfg67cSNBKJESq9R7LoxpLAylFqEmflGeNlcISbMnrCtQq2HFnOv5QlLFlgsYU
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOltdLCJzdWIiOiIxNzI5NzUwMTY0OTQ3Rm1XSlZyYnhvU0dLbnY1ZW9WS2tESiIsInVzZXJfbmFtZSI6IjgwODUyMzM1MTA2OTExODQ2NCIsImxvZ2ljX2lkIjo0MjI4NzI3Nzg1OTQwMTMxODUsImlzcyI6ImtodC50YWlwaW5nIiwic2NvcGUiOltdLCJncmFudF90eXBlIjoicGFzc3dvcmQiLCJqdGkiOiIxNzI5NzUwNDY3NzMxQm9Ea0gzaWtzOGhtZ1M3cXRFSVpCYSIsImFkZGl0aW9uYWxJbmZvIjp7fSwiaWF0IjoxNzI5NzUwNDY3LCJleHAiOjE3OTQ1NTA0NjcsImF1dGhvcml0aWVzIjpbXSwiY2xpZW50X2lkIjoiVFBUX0FQUCIsInJvbGVfdHlwZXMiOiJDIn0.ebT9AM4Z3_8Vwz03B2UnjHf2g-jdK8cS5Yd_RWJjKHag7uxbUiQos3mbLDN2f8WCWsz1Zf6nrTmyqlLn05ZWKCX1XoHEw59YXxUMjejN1ZWYnxEn_NWCUp9zzgdUareujDhGBJ3DIzQGEb0XLo2Sasn3ZtZhPXlMeLUVaFHdPr0'
 export TaiPingTong='[
     {
         "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOltdLCJzdWIiOiIxNzI5MDY5MjE3NzcyQm1TTVY4MmczZ0ZsQVE4NktieFR2aCIsInVzZXJfbmFtZSI6IjY1MzI2MjY3ODk2MTI5OTQ1NjAiLCJsb2dpY19pZCI6NDIyMDYxOTM0MjMwNDM3ODg4LCJpc3MiOiJraHQudGFpcGluZyIsInNjb3BlIjpbXSwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwianRpIjoiMTcyOTQ5NjkwODgwNEN0aEx2ZFJ0b0hpeW5MbjduYXYwY04iLCJhZGRpdGlvbmFsSW5mbyI6e30sImlhdCI6MTcyOTQ5NjkwOCwiZXhwIjoxNzk0Mjk2OTA4LCJhdXRob3JpdGllcyI6W10sImNsaWVudF9pZCI6IlRQVF9BUFAiLCJyb2xlX3R5cGVzIjoiQyJ9.JRuxH2FKT_CYMiu87o3vHiXDMUy701eZjGLt1LdqERSUr1f4ECxMiDHiDQzy1LlfGdSV5EJDJWXB7q7e-XlI1iGfT9EzAoEEva1pVgi6zNO4znfg67cSNBKJESq9R7LoxpLAylFqEmflGeNlcISbMnrCtQq2HFnOv5QlLFlgsYU",
         "userId": "0730"
     },{
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOltdLCJzdWIiOiIxNzI5MTcyNzg4NzU5QjZXalBjMXNTaGFvUGZGM3k3NzdLbiIsInVzZXJfbmFtZSI6IjgwODUyMzM1MTA2OTExODQ2NCIsImxvZ2ljX2lkIjo0MjI4NzI3Nzg1OTQwMTMxODUsImlzcyI6ImtodC50YWlwaW5nIiwic2NvcGUiOltdLCJncmFudF90eXBlIjoicGFzc3dvcmQiLCJqdGkiOiIxNzI5MTcyODMyMDg4QmZJR1daRFgwRjliSElGWjkyWElpVyIsImFkZGl0aW9uYWxJbmZvIjp7fSwiaWF0IjoxNzI5MTcyODMyLCJleHAiOjE3OTM5NzI4MzIsImF1dGhvcml0aWVzIjpbXSwiY2xpZW50X2lkIjoiVFBUX0FQUCJ9.iHjFNd2culzU92Ku6F5eOInjTSaRPHlZZNdpd21gqWIqF8yIjuqd4aN_RxSj9-ZLzho5_jpO5z-shNIqn86DNomm81NDQ9GEqoOOWGi4YhLR-E8ORbnDcZGoFUIlbmk2N1bXuFRXPq9se4Ol6I3eNuz_EySUUlKhHtEp3D2kkgo",
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOltdLCJzdWIiOiIxNzI5NzUwMTY0OTQ3Rm1XSlZyYnhvU0dLbnY1ZW9WS2tESiIsInVzZXJfbmFtZSI6IjgwODUyMzM1MTA2OTExODQ2NCIsImxvZ2ljX2lkIjo0MjI4NzI3Nzg1OTQwMTMxODUsImlzcyI6ImtodC50YWlwaW5nIiwic2NvcGUiOltdLCJncmFudF90eXBlIjoicGFzc3dvcmQiLCJqdGkiOiIxNzI5NzUwNDY3NzMxQm9Ea0gzaWtzOGhtZ1M3cXRFSVpCYSIsImFkZGl0aW9uYWxJbmZvIjp7fSwiaWF0IjoxNzI5NzUwNDY3LCJleHAiOjE3OTQ1NTA0NjcsImF1dGhvcml0aWVzIjpbXSwiY2xpZW50X2lkIjoiVFBUX0FQUCIsInJvbGVfdHlwZXMiOiJDIn0.ebT9AM4Z3_8Vwz03B2UnjHf2g-jdK8cS5Yd_RWJjKHag7uxbUiQos3mbLDN2f8WCWsz1Zf6nrTmyqlLn05ZWKCX1XoHEw59YXxUMjejN1ZWYnxEn_NWCUp9zzgdUareujDhGBJ3DIzQGEb0XLo2Sasn3ZtZhPXlMeLUVaFHdPr0",
 		"userId": "5833"
 	}
 ]'
@@ -50,37 +129,28 @@ export yhtck='[
         "user": "5344"
 	}
 ]'
-## 阅读
-## 通用
-## UA
+## 阅读-通用UA
 export yuanshen_useragent='Mozilla/5.0 (Linux; Android 9; ELE-AL00 Build/HUAWEIELE-AL0001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/1170 MMWEBSDK/191201 Mobile Safari/537.36 MMWEBID/873 MicroMessenger/7.0.10.1580(0x27000AFE) Process/tools NetType/4G Language/zh_CN ABI/arm64'
+# WXPuser apptoken
 export yuanshen_apptoken='AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj'
-export yuanshen_topicid='81422'
+export yuanshen_topicid='34236'
 ## 点点赚阅读
 ## 变量名：s_ddz    变量名值的格式：备注#cookie#提现金额（元）#wxpusher的apptoken#主题id#提现支付宝名字#支付宝账号
 export s_ddz='1#user_openid=oiWmR6blhGUCvcVybrqn2AyEz5Vg; uid=144112; PHPSESSID=e8fd983ed5c356370487cf6a5c267d2e#1#AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj#34236#低调D树苗#15165150730'
+export yuanshen_ddz='oiWmR6blhGUCvcVybrqn2AyEz5Vg#144112#e8fd983ed5c356370487cf6a5c267d2e'
 ## 小阅阅
 export yuanshen_xyy='bd0784d1fd442aef0d39e1a28f751e5b#oZdBp07eZsdi6AfNIZELRP8E3dZE
 fa003efab9d2fbc4b0876bcf6d183433#oZdBp08tjitz2Y51HGYYUGqm1Sqc
 b1fcd18db0f4e16904db543c46b4e470#oZdBp0_0uthcZ_XciIwTrw66BDjw
 c4af0d622b74118cd15e1f89662e3814#oZdBp0_DAQ0_o2kRdtDJvtOQRKq4'
 
-## 探子报
-## 抓取tzapi.tanzibao.com域名下user-token的值填入
-## 变量名:yuanshen_tzb=63b8ae260ab36fdb5353a0ff035492ab
-export yuanshen_tzb="a0a9e153e62622a32782bdcc4b9567db
-51e3bedf30b58e01ee59042da1191ba8
-7055e8c2fbbc26b5f1dc86ea8598638e
-4cd173c6ef3233480856685bec0dca5f"
-
 # 15 8 * * * pddFruit.js, tag=拼多多果园, enabled=true
 # 搜mobile.yangkeduo.com，请求头的AccessToken，设置ddgyck 多账号@分割
-export ddgyck='IONFV23L5ZNDQPW7UYE2BEDYA4R32JT5HPENQ3DFFT2LIAQY6DMQ1230e73'
-export mkypck='IONFV23L5ZNDQPW7UYE2BEDYA4R32JT5HPENQ3DFFT2LIAQY6DMQ1230e73'
+export ddgyck='B4IRQH4OOQJASF5FDQXRRSDUNNNOGQNANXM73HUNUFSQND53IIEA1230e73@6U3DUGWQ32TQ3I35H7EWE7SLPKFCBWCWPPCLXBUOJNNKMNMBLZYQ1200738'
 
 # cron "8 8,14,22 * * *" YongPai.js
 # export YongPai="账号1&密码1&支付宝姓名1&支付宝账号1&设备id1 账号2&密码2&支付宝姓名2&支付宝账号2&设备id2"
-export YongPai="15165150730&Java1314&袁际范&15165150730&866174010678064 15194115833&Java1314&许倩倩&15194115833&863064011768399 19546115344&Java1314&袁际范&19546115344&354730744091913 19016418104&Java1314&许倩倩&19016418104&863064011510999"
+export YongPai="15194115833&Java1314&许倩倩&15194115833&5a4cf2967874f9a7 19546115344&Java1314&袁际范&19546115344&92b654013f6f8005"
 
 # 福田E家
 # cron "39 11,19 * * *" FuTianEJia.js
@@ -91,7 +161,7 @@ export FTEJ="19546115344&Java1314 15165150730&Java1314 15194115833&Java1314 1901
 # cron " 10 8,18 * * *" YeYeBuPaoCha.js
 # export yybpc= qm-user-token 多账号换行或者#分隔
 export yybpc='Fqbz7DpPi18Fs-bm20WWuYwHVBNOy8ai11q_oe7hgpjmVCt3g4UIzyzCY7N8wv0V
-mozT_sPrW53UQ6KSVHSraAj68NStw0Us6WrzAKGi_PKD-kty7UHp4xngECJPYDfb
+CEfnoi14ErrxJFCJ_EgqvgZbRPJ_THEVz-fDInpoOIOgiCs5Ln_hCGvt6_ehvF_4HiCrWdhXo8UGVV8bQTrVYw
 RQO2nnWbdS9tetYNpZIsqleu2DYB4_-WCz4VGk4pOAHuz9VQkPHSthKqHPmKB1CV'
 
 # 找https://mc.kukahome.com/club-server/member/automaticLogin返回值[identityValue@openid@unionnid@1@1@1]
@@ -135,40 +205,40 @@ export sfsyUrl='https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activi
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=D8m2bSCfEgIFutEKGHL1mU2y5lqdMITfXMS4ZXwMijU%3D&openId=z98p5zuVdf10l%2FcSz3rXbmrLVc1SPHLr5ngEWCown7g%3D&memId=ebT8CjYmypb3tRaQeclvge%2B4dvOh7KBNRY8pHlvuFn8DdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6SIPOgCV2QCcrHEy0y%2FoGt0DdjSr%2F6X0WoiZtgGzs7sG&mobile=ZNExzyTuh3HdrEPvMHdCPA%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=JKC5vN4r5zCc9ec%2FS4%2Fe6ZdVHKJxYRbv5CoOI8T5XFM%3D&openId=Pl051JRYVG%2BTxBX%2FZXYOIEzNxrZGbGLgawTWlKFPfiE%3D&memId=6UXr8F2zYAacD2D0URtGiE26TOUlTNr1zgl8KF%2BQSSADdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6RxjMGij0WlzSJK5OWU2vz8DdjSr%2F6X0WoiZtgGzs7sG&mobile=IPIt0HYH4Sr%2BbJpIPa7XWg%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D'
 #* cron "5 0,18 * * *" YiLi.js
- #* export YiLi='[{"mobile": "1", "openId": "1", "unionId": "1", "nickName": "1", "avatarUrl": "1", "yiliToken":"1"},{"mobile": "2", "openId": "2", "unionId": "2", "nickName": "2", "avatarUrl": "2", "yiliToken":"2"}]'//yiliToken是域名msmarket.msx.digitalyili.com的access-token
- #* export YiLi_Open='true'//翻牌
+#* export YiLi='[{"mobile": "1", "openId": "1", "unionId": "1", "nickName": "1", "avatarUrl": "1", "yiliToken":"1"},{"mobile": "2", "openId": "2", "unionId": "2", "nickName": "2", "avatarUrl": "2", "yiliToken":"2"}]'//yiliToken是域名msmarket.msx.digitalyili.com的access-token
+#* export YiLi_Open='true'//翻牌
  export YiLi='[
 	 {
-		"mobile": "15165150730",
-		"openId": "1",
-		"unionId": "1",
-		"nickName": "1",
-		"avatarUrl": "1",
-		"yiliToken": "L7+N2Yf10seV+6nyZ3ZNQc5k6SIuydvppQcIkDgZMgOvlidmeQePYYSVuKIrWCFCjrlXwMXEUSiwfbWFXAGcqQnPEQu15XhpUQ9KPEYu8w8="
+        "nickName": "优秀的朋友",
+        "mobile": "15165150730",
+        "avatarUrl": "https://wx-pubcos.yili.com/prod-msmarket/ac5c7d353c9542ed86915f41ed55a852.png",
+        "openId": "o8SsY5Mdq9vSQ0JxN2rbZtwRL5aY",
+        "unionId": "o6QWL1MC5jw8YZlQxc-g_LeCY6I4",
+		"yiliToken": "cS+ihCBe3wiXigiv/9IgyqZSW+JAX8cUb9DqmcX7GFEjWhV/+Y/Z9PBy1Vh5jr3TIV4zYGKzd0t0hnNZ5pS9IQ61HstCr/RU2u/NPYAiHH4="
 	},
 	{
-		"mobile": "15194115833",
-		"openId": "2",
-		"unionId": "2",
-		"nickName": "2",
-		"avatarUrl": "2",
-		"yiliToken": "M5g0QMjmpae6peNLoj0npTHL+lckLVc2WH2YJZQ3uKs4jujBTsUrmPUTLchU/T8yaf9ah2Op36SgOyxIUcaHtSYNNUi6svGjvIsIpY7Lgcc="
+        "nickName": "坦率的金针菇",
+        "mobile": "15194115833",
+        "avatarUrl": "https://wx-pubcos.yili.com/prod-msmarket/932ac46706764c12bf1cf5791c219b48.png",
+        "openId": "o8SsY5O5gesSBu8ygddTLzaR9VsA",
+        "unionId": "o6QWL1CRw7ZXGa1UnDWuAk1SYa8Q",
+		"yiliToken": "xhlLDGILCvXyq484Eqrd7cPq1qOmzgP4UNd5ZHJgm+RZwcYnR0562AbXFKEnTQX4fp9ivtCsPEdG4HPtZ2fH2jSLRd+k9XZixMJwfKsOTvM="
 	},
 	{
-		"mobile": "19016418104",
-		"openId": "3",
-		"unionId": "3",
-		"nickName": "3",
-		"avatarUrl": "3",
-		"yiliToken": "cesSNrp1bnKrDiyok0fwqNdGA7E12HDwQbGkK1qX3QzhyAhcnwPyyMfr6sUAuB8Dh2fDBNTwXqBsGXO1jQTiS/0qIlvG3aScloOJBRDvheI="
+        "nickName": "可靠的快乐小猎人",
+        "mobile": "19016418104",
+        "avatarUrl": "https://wx-pubcos.yili.com/prod-msmarket/ac5c7d353c9542ed86915f41ed55a852.png",
+        "openId": "o8SsY5FYpecPXojm4MvmeQ3tfNBc",
+        "unionId": "o6QWL1Fyrm4BrON4QCNBr-y4lfSM",
+		"yiliToken": "JDVtX3Piy+2SWy/L8dHiOFTnW6D9hqePgq3Vj/A5jw7RtWC2uBXixva+JidHsjDXCff+bXlrSPBU9zD0vmuHmuAlifEx47pjXwBfBVu1i90="
 	},
 	{
-		"mobile": "19546115344",
-		"openId": "4",
-		"unionId": "4",
-		"nickName": "4",
-		"avatarUrl": "4",
-		"yiliToken": "q9XaZvvnJGvROxqkHa3Kp5LEBdAs2Hd0POVJdKhSx7Qv3FBYyRQy6GXEmdVdVnCK5kTmiG9R05HScMjgQyfYlwbVOeHdRQNzOk2+J8La1Zw="
+        "nickName": "疯狂的微笑",
+        "mobile": "19546115344",
+        "avatarUrl": "https://wx-pubcos.yili.com/prod-msmarket/0e5aac3213604639a0c849994edf742c.png",
+        "openId": "o8SsY5PE-hXGR-SplLV5dV2NDdrY",
+        "unionId": "o6QWL1DrCB08rAgyjSqqTybC57Gc",
+		"yiliToken": "t8Kysi/j2WuHg6zV8Dv+ImTCOfm/hzSu2RdtZBJhsjXcI78wJ2kAECGktZTqcTTCv0uyWA4+2f4Q5YZmS8nW0LzkbGbC0O6+3x5tzpCYvBU="
 	}
 ]'
 export YiLi_Open='true'
@@ -179,9 +249,10 @@ cookie2=120bc962844bddbd3ced5faf3a893a8fe;unb=2204548324719;USERID=175157940;SID
 cookie2=1064e67a8415043c4570ac6444106a6de;unb=1919905024743;USERID=3100178576064;SID=MTA2NGU2N2E4NDE1MDQzYzQ1NzBhYzY0NDQxMDZhNmRlg60j1LwPntpgzC6SRglB1A==;token=1_idc_1_b1aebc27eaa43fb7e2324ca417095fd4542b3212bbe980c2bad0f27d2cd969676153b4caba6eb0adaaa31f3525484cd337292d49b1e9716a3c67f805146ec278877355749fc82eac9e615d511c89ba3c18ed82f05b813abb690b842b0dd1851999be1b256a1fa3fce2d3301403b1842eaa7f3d0cb1faf71d8e775ce65ea99576;utdid=ZtVn9RUP/R8DAGh42OLtPonk;deviceId=Al_5xWae22koPzMT7Wxnc_qeZvNtmw82tvBtV_AcsEIY;umt=AvoBOBBLPEWKYAKSQ7a8Uz0kIGn98n7l;"
 
 # cron "30 30,35,40 9 * * *" DaChao.js
-# export DaChao="账号1&密码1 账号2&密码2"
+# export DaChao="账号1&密码1#meber 账号2&密码2"
+# member抓/api/publichy/client/activity/info?source=wechat
 # export OCR_SERVER="ocr服务"
-export DaChao="19546115344&Java1314 15165150730&Java1314 15194115833&Java1314 19016418104&Java1314"
+export DaChao='19546115344&Java1314&{"id":"9cc0ec80de193484e6287b1f7be3eddb","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"cd153b02506a86e98bf6c04adc11ba8a","expire":1730812713,"token":"dc313a877bf3d2c6c00fe0c805121b482db59328","source":"wechat","mobile":"","mark":"oKa1V67t1Hmccubgu9gAl0zO8oTk","mtoken":"14bccbfd862162cd76349090bfce1ede3999a672","stoken":"cb4548174a1dedff9e7746c4192c5c13","nick_name":"%E4%B8%80%E5%8F%AA%E5%A4%A7%E7%99%BD%E8%8F%9C"} 15165150730&Java1314&{"id":"ff19efd9681fa241332096e71f0242a1","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"dbd11a9cf94b179e8f42238fcd3092c4","expire":1731116918,"token":"c7bbffc3d91a4dc2356326e1810595c0f1de37d3","source":"wechat","mobile":"","mark":"oKa1V65tjiDw8YYqXJetSd1wqqDk","mtoken":"f7e62f08737a00a04c2dabca1ca4152685c463c6","stoken":"4ba617bf44a630adea9ffd65b25d658f","nick_name":"%E4%BD%8E%E8%B0%83D%E6%A0%91%E8%8B%97"} 15194115833&Java1314&{"id":"ffca74106fe63732759afa2479df6ed2","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"7e051d1a2f4c2363d28c297f59c89769","expire":1731163089,"token":"3c528a0401b39c3969506282ba2a799582e686a5","source":"wechat","mobile":"","mark":"oKa1V69iwlJzYwvb7xfelRSpNZYM","mtoken":"17a916e1a916df4f3132c59d3498d7c21734f566","stoken":"4209dafff6b049ba3cd579a8bef647ec","nick_name":"QiQ"} 19016418104&Java1314&{"id":"77ced47cdc8a1f2c68ecaaf0a5d96b20","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"3d1d960748f0d69ff0f57a3236cf4b87","expire":1730958953,"token":"7089deedbaf249882ce52c64faa1a04137413ce2","source":"wechat","mobile":"","mark":"oKa1V6_D9WR9_HQmh7Q6e9P-DcuY","mtoken":"fa2af32c96b5b3cca81641ddb6dbdea1111bf6f6","stoken":"b04a54d03541f9ae3537cbca2ddb81e0","nick_name":"%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%9D%BE%E8%AE%B8"}'
 
 #微信小程序IQOO社区，抓包authorization，青龙设置变量名iqoo值为authorizatio@要兑换的商品id，抓一次30天有效
 #600356，哔哩哔哩 600336，肯德基10元 600335，必胜客20 600334，Qq音乐 600332，腾讯视频
@@ -195,19 +266,28 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIiLCJqdGkiOiIxZThlNzhlYmUwOGI5ZTF
 export IQOO_Create="true"
 export IQOO='[
 	{
-		"id": "1",
-		"xVisitor": "1",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIiLCJqdGkiOiI1ZGY3NDk5YWEyOWFiZmVjN2Q3NzVlZWFlOTBkNTcyYjc4Yjc2YzBkNzg2MmIzOWM3MDg2ZTQ3ZWU4MWIyYzcyYjAyZTBiZjEzOWIxYmEzNCIsImlhdCI6MTcyNjgxMDkwNSwibmJmIjoxNzI2ODEwOTA1LCJleHAiOjE3Mjk0MDI5MDUsInN1YiI6IjU3NTEyMTgiLCJzY29wZXMiOltudWxsXX0.D4L8ma4-UbY8ghorQJ5viyWcR_pIJwdGp9ndqjIl6Xl6Jxs7Mzi37zAaYuIj-yE2XtGCNwe7Iq3z9mRz6PZZkM0BzHP_1tbWjT4X-i1qwWb8J7Ipfi3HgYC45soy3TgyKwoIOxgrAr_l1AIJmIEYVTKuBn8MhZ8MFDDjlcX9IMXsWmwACVoWvS_jfCZMWPJQLE3eYzuha8cHZnXioXrhhsqkG9guB8F4P0GhhSDCE8DX7Xi6NBIkEDkcj88Lyp497pn-kAi1rgTYHY05qy4RN8z5TQgIR-an3R9MZTLz0kWf-m6BMr9moHBRSSwOlA-FCVV4ENLdiWPmSjz9xnS6WQ"
+		"userNameBak": "5344",
+		"id": "6046809",
+		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIiLCJqdGkiOiIzYTMzNTQyNjIzZWMzOTAwZTFhMmNkMGUxNGY0NTVmNTMyMjQzNzNiNzIzNTU3Yjc3NTdkOTUwYTIxMmU0YTgyMDRkMWU1NzlkZmZlMzFjZSIsImlhdCI6MTczMDYwMTk2MywibmJmIjoxNzMwNjAxOTYzLCJleHAiOjE3MzMxOTM5NjMsInN1YiI6IjYwNDY4MDkiLCJzY29wZXMiOltudWxsXX0.WT3nyHIM1l6-b4S8Nge9aLSruJpUE958p7mxoepagU9ey4-R0ndUp3CJ-WiG-Jm0jEmTCdSaQoPdg07ObO2VD4YTPzkmKs_uyrY-3R7L8AKwdptBgUID-J668-BKDqwukHSg35ye-kaxe34qrxILLOiZn0HM264HQCsInJfR9TayhkqpyXrT0eE2m-vpOTclI8sL0-ENzNnCsj7plhEkq8x_NAy3jw22gX8pTQVN5Zfqu6EvKWsdlo36h15Mzj7XmktSXNnZ9xDWqKhTfa1F2EnuCVknsxESUGXY9y2W7yNVIXocIw050cfezA6WbUBVj5VzzLn_5QAt_uQpt2Ofsw"
 	},
 	{
-		"id": "2",
-		"xVisitor": "2",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIiLCJqdGkiOiJmYjRlY2VhZTI1YTMxNmNjMTFkMzRlYTgyODQ5MzBmZjMyZTBhYjZhMzQxZWM1ZTVkOGFkNmQ3YmM5ZWMyZmJmMDA2ZWYwYzE4OWY5M2RmOCIsImlhdCI6MTcyNzQyODQwMCwibmJmIjoxNzI3NDI4NDAwLCJleHAiOjE3MzAwMjA0MDAsInN1YiI6IjYwNDY3NzMiLCJzY29wZXMiOltudWxsXX0.efhHI4WG6cUr6BxVFTKFF8cXHUo6wwqsOpjfkIfn7raiLSAhRaU8RzcqEEiwhbyJVACYBy5obuvG5JXDTTaUoA_5DZ7G_JmxDpehab_GKpRclu3Q28AjFnpMrhw-K1cfw95d1D9uYcZTjlWHUSxypdalF8a8kkBv_KVd38foZQN-bSBVqy21ifg2-i7Rx0Ln1HK1gJjT2x1KWnVqV851aqHXRhy-zTEiZIt_Lq0BAJk_8DO1r3M_PX0IRB5CJVoYTNRzH4El0ZCViAr4970y6xdc58lxEtJTVtJNuoAlNuQ1qqVCWxFJX-B58Nlz4piriG-UJqTKWan3sRYPi40KHQ"
+		"userNameBak": "8104",
+		"id": "6046773",
+		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIiLCJqdGkiOiIwMTEzY2U2ZWQxOWM2NzJkYmM4MjJiMWFlZTk0Njg3MTNlNGE3YzdmYjQzYjY1OWNmNDM3OTAyOWMxOWM3OTg5Y2JlZjliZWI1YWQwZjI1NCIsImlhdCI6MTczMDYwMjIwMSwibmJmIjoxNzMwNjAyMjAxLCJleHAiOjE3MzMxOTQyMDEsInN1YiI6IjYwNDY3NzMiLCJzY29wZXMiOltudWxsXX0.Ex_SsvJwOiPAoZQ_5JHe2eBNtfiDrXi59s5Dl-C0CnhVMrhduEJHrHF-NtI80yqRunLxAuZHWO7UDCoT8-4N7_eJGEw7kr8TDZ-SahdC0xyoSkYFbK-luvFFmdNFfGP4hBFrGVW94BPtdpFv6LLKcxttTrQhq4KvEvcIyenwchyopPItVu67OSPgm8OnJhPYUnOqLvyXvKwNQVGfVS-pt3L4zvawFTZamRmyvOHrAkZCpFfQ8je5r1BPMQDw3Eh2-ZB-OMlEUh7esu4S9XuiWfBgQ-YT_e6fXFQUqDgiA_MaRH9Ci4wIx1CLN3CXZWXWJqO49c2Hkqx65YXbv4psuw"
 	},
 	{
-		"id": "3",
-		"xVisitor": "3",
-		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIiLCJqdGkiOiIxZThlNzhlYmUwOGI5ZTFmZTI2NzliZDhlMWI4M2NlZGU2NjYwMjVkNDEwMGIwNDVmODBjZGQwMDY5OGIwYzQ0YWUxOTM0NDQ3MWM1MWI3MyIsImlhdCI6MTcyNzQyOTAzMywibmJmIjoxNzI3NDI5MDMzLCJleHAiOjE3MzAwMjEwMzMsInN1YiI6IjYwNDY4MDkiLCJzY29wZXMiOltudWxsXX0.hXGMKXMG9KupEfs-32kdNJ50bbhcWa8CFISIOXz0ODiT0dJXCFB5c2oaK7bBQK2YvNa2i9pUI1iuriYeXT1E5DduTsqEnTVs5uBmrLghh2T-mPB_kEH9iM7gRBaVocN9J-o_8FyQXT6oN3fFy7ReGJ7TBHxrUPFHN2QL_OwG1RB53dr5Pk_n918kdTBF7Pg0XZCxgb8h6H2EnKXMY0Ltvpcy71a1o_JoJt4qx3HaMMZBvqIf4_TOlLouGrAp_FtkkxGkUFnPDkjrNq1hDrp2iqVVxr-N7ykzPdZJm4ADW9kRPgm4rv8H20kyvhA_v4lA4NnfAF8YA9oBRYqp-XSnqA"
+		"userNameBak": "0730",
+		"id": "5751218",
+		"xVisitor": "6046809",
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIiLCJqdGkiOiI1ZGFiNTRlODQzZDQ2YzIyY2YwMWU0ODA4ZWE4YzEwMzk1MTQwMmY5NjA1OGM2MTQ2ZGUyZThlYjQzNTIzN2NjZTIyOTk0ZmM2MTYxOTQ3ZCIsImlhdCI6MTczMDYwNjgxMywibmJmIjoxNzMwNjA2ODEzLCJleHAiOjE3MzMxOTg4MTMsInN1YiI6IjU3NTEyMTgiLCJzY29wZXMiOltudWxsXX0.iABLeWpjJv7VjEQQFgCX1sF8dOlN3QwzcjJN6IrOwajwgse7xqq67h4plpyXqUeGi8GvK2NiTkK3ZLmTZieSM8MeAcd-AWyg_dw3BOIZ7v2LnTXV7zgGYCP8znDzG--elGz8-kEnavAIvxlF07hr9jsON0dWOFaZlDoEydu3Ruf-_HB90Xqc1XmkMDB3pCYnSdaHFY58glP_c2kMeLle0Je9lW2X12YFPLs8aZvawPlX01v2jwV9iNHYy8vhLayCNMsE3ISkdwPwAo-5ln1dmvhUuscOwvyU_lIJfKrTnn1nrkMOJS1dVw0oktZbVq6Xc9HZdEJZZMAFRdIkJHT_DQ"
+	},
+	{
+		"userNameBak": "5833",
+		"id": "6166347",
+		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIiLCJqdGkiOiI0YjE0YWQ3ZjcyMTgwOGI5Y2VlZWFjYjA5YzUyNTgxYTM4OGYzOThkNWM0YTQ5ZmVjODliMDgzYzAyYTNlMDYxMDk3NjYwMTBkMTIzNGEwYSIsImlhdCI6MTczMDYxMjcxMSwibmJmIjoxNzMwNjEyNzExLCJleHAiOjE3MzMyMDQ3MTEsInN1YiI6IjYxNjYzNDciLCJzY29wZXMiOltudWxsXX0.tuB1dwDFuQjuA18rOYx8fqZgid1enlVfFyQah-zDd4JaglMXcPDQkpBzO5J6k6Ng0VrQ4ImJMYrVbHdYwJylzzzHzeLXidu6ScKrDg0t8OcuspflzxAPx_TthkdE-CfwIZrQer4PIdauKtIzDVQxId0ZrYyYbBEEuMLJLV8xVs69JiPPyzUo8JRgrdAENiGK8_sb644l43DG_dQNeOKakBLbrd0lCIw5KuyyFMmRW1-Gqy1J1fL_7iJRI4VZlhjpG6tiT1eKeLyqjLiBAUJhQ2X_DaZiZJs9ilDaLIbSmf3KTtYxFZQgRpG3UPYHbLgL-G6iIZmSm2-1JNy9TllUZg"
 	}
 ]'
 
@@ -222,9 +302,11 @@ export yuanshen_bnhg='ae85b57ecfee46b68dd40425a9dde31f'
 # 霸王茶姬-微信小程序
 # export bwcj_ck="token#userId"  多个换行
 # 8104#5344
-export bwcj_ck='i1KRsXxq8JT23BXj-bI0JEfaWosstap-laOstaD1gT6YoGCKt5BIrqbidPHqvuUi#1043584100904214528
-Vj2GapjIvnCZDfnIgu9PYIbmvDvgwAJt9Rt-3V1-YJYfD77KqRJ4M5VgehTosjzA#1043582132064251904'
-
+export bwcjCookie='2dRpUveGu7jGdvSTLShAtRzIav3pyZ3YXX_z0usmkvvvbe1GC9BVTXJqMV6YEYb8#1043584100904214528
+le5VjDwbsELqLDyoiim1xa4NVsV9v58WqzpZG3NekngVRKXiRLzmzfvIJCImfe5A#1043582132064251904'
+export bwcjck="2dRpUveGu7jGdvSTLShAtRzIav3pyZ3YXX_z0usmkvvvbe1GC9BVTXJqMV6YEYb8
+le5VjDwbsELqLDyoiim1xa4NVsV9v58WqzpZG3NekngVRKXiRLzmzfvIJCImfe5A"
+export BWCJ='2dRpUveGu7jGdvSTLShAtRzIav3pyZ3YXX_z0usmkvvvbe1GC9BVTXJqMV6YEYb8#le5VjDwbsELqLDyoiim1xa4NVsV9v58WqzpZG3NekngVRKXiRLzmzfvIJCImfe5A'
 # new Env('中国人保');
 #by-莫老师，版本2.0
 #cron:5 1 * * *
@@ -281,7 +363,7 @@ export QingDaoNews="15165150730&Java1314 19546115344&Java1314"
 
 ## 望潮APP
 ## export WangChao="账号1&密码1 账号2&密码2"
-export WangChao="19546115344&Java1314 19016418104&Java1314"
+export WangChao="19546115344&Java1314 19016418104&Java1314 15165150730&Java1314 15194115833&Java1314"
 
  ## cron 9 9 * * *  XinXi.py
  ## 变量名: XSSONF
