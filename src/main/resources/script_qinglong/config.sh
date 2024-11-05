@@ -1,4 +1,17 @@
+######################通知配置 START######################
+# WxPusher 应用TOKEN 应用：风火轮
+export WP_APP_TOKEN="AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj"
+export WP_APP_TOKEN_ONE="AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj"
+# 若WP_UIDS与WP_TOPICIDS发送对象一致配置一个即可,都会发送
+# WxPusher UID,多个UID分号分割
+export WP_UIDS='UID_sF1mp5d9I25wtD1CPejkfw6UV416'
+# WxPusher主题,多个主题分号分割
+#export WP_TOPICIDS='34236'
+######################通知配置 START######################
+
+# 饿了么signhost
 export signhost='3.xjyyds.cf:18848'
+
 
 # 招商信诺
 export ZSXN='oSWTishtFMENAzyS39dD7upE5JqI#okz730JxZv5Zr8csFdBUU4-gER2Y#KiORiD7VGh5FppB+uCdoPoXd6icYnkUW7Mtoeut1kyCHdJ7yw4RrvUPcJ61XGQEvdRUVuZO0yKmTzKNPYPCoI8ly6dy2MsrIZeTl6QRXgRhuQJuUenKc/bvcIKHtWFdM5+dbi3D7tEb8h0cgwu4CBvZhbRO28G9i9ozfSWqBNXs='
@@ -371,9 +384,6 @@ export WangChao="19546115344&Java1314 19016418104&Java1314 15165150730&Java1314 
 export XSSONF="Wmeimob_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNzYwMjE0IywjMSMsIzIyMy4xMDQuNDEuNSMsIzdmZWE1YmMwZThkNjQ2YTQ5NmZiYjliYTZiNDRlOGRiIiwiaXNzIjoiYXV0aDAiLCJleHAiOjMyMTg2Nzk3NDl9.YeJ-rGWRAABwoy2MxdZGodCMkPgC423HOWkhNKQ6idA#0730
 Wmeimob_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNzIxMDg2IywjMSMsIzExMi4yMjkuMTAyLjI0NCMsIzIyZjhlNTZlMDhmZTRkZGJiZmU1MTQ1YTg5ODMzOTk1IiwiaXNzIjoiYXV0aDAiLCJleHAiOjMyMTYxODk3NDV9.K6p3DkWRYGcNITfmrKcxv8fdWY8IOduvsxs8xhd5Zs4#2
 Wmeimob_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNzIyNDQ1IywjMSMsIzExMi4yMjkuMTAyLjI0NCMsI2I5MWQwM2NiNzQ4MjRmNWM4MzJlNjk5N2M4Zjg2Nzg5IiwiaXNzIjoiYXV0aDAiLCJleHAiOjMyMTYyMTIwNjV9.v_zAx7YffilecdvQjcOiX_-FWCz6wO427te5LfyCCQ4#3"
-
-## WxPusher-风火轮
-export WP_APP_TOKEN_ONE="AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj"
 
 ## 可乐
 export push_config="{'printf':0,'threadingf':1,'threadingt':3,'appToken':'AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj'}"
