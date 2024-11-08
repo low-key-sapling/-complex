@@ -1,5 +1,6 @@
 ######################通知配置 START######################
 # WxPusher 应用TOKEN 应用：风火轮
+export WX_PUSH_TOKEN="AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj"
 export WP_APP_TOKEN="AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj"
 export WP_APP_TOKEN_ONE="AT_Z5U3t2kky7uDc7Ss81qat0cyDqzsNDSj"
 # 若WP_UIDS与WP_TOPICIDS发送对象一致配置一个即可,都会发送
@@ -9,9 +10,15 @@ export WP_UIDS='UID_sF1mp5d9I25wtD1CPejkfw6UV416'
 #export WP_TOPICIDS='34236'
 ######################通知配置 START######################
 
+######################饿了么 START######################
 # 饿了么signhost
 export signhost='3.xjyyds.cf:18848'
-
+export elmCookie='cookie2=11746aefe60a514af142348f0cd0c1eee; _tb_token_=ee37b586eeddb; sgcookie=E100AmOX0kT8A8cdMMx%2FFSB%2BjZ8%2FyNnVA5O%2Ba4Km0hl2efOpsOfJfMqhrXARc5tc07T1qdREj2rMsnTeoKjwrWDgYnNtD6wUo4orbq%2B%2FnFEtiFc%3D; munb=1919905024743; unb=1919905024743; USERID=3100178576064; SID=MTE3NDZhZWZlNjBhNTE0YWYxNDIzNDhmMGNkMGMxZWVlwTpQYpgHfEX73eCkzzGIZg==; UTUSER=3100178576064; tfstk=fLkHyBMBWXPIQbIJ-A2BZigVkvRTdww7O4B8y8Uy_Pzsy6oyA3XuSVcL8DhKZLmr-ThLLYc1EmiSpHwJAJiQF88vkK3oADw5uiR75Fnw4uTNI_upHDiCbMbyDfJArGfZAe4rzWPaboaNU8Pz4h4aqo1P84yyjcz_D_7U8WyN7kZ-MyWzoYksQe_9QLypYHkgYUaqxPq_fAq3trPaSToKIkV3uDkdLbpzbAHgM5IJWRoj62rgndCU3ccrojuWM1wn4Xu7s2T1sPhZ60zz_iBrj74n_vPG4To_LzVrZ2YhOylKSSZa_gvbXqUZAvlMVNoEky2Ub5p2mcPr6vNjpFW33jiLpbuWM1wn4XyG4-1Ng6pPFl--Q_17TlZgllLP_UaIgIGMjhfXOWr_vEKMj_17TlZgkhxGGGVUfkLA.; app_cityid=19; isg=BLe3UupynKaK-xgKY1ltKG-xRqsBfIve5s70Aglk0wbtuNf6EUwbLnWamhjmUGNW; ubt_ssid=wvcfvi0wh4okokkjt1bqgf68nwzz64vr_2024-10-11; cna=zIiPH7rj2CcCAXeip/KyGPjP; t=635bbccc27aaff17d41500e0ae231e4b; mtop_partitioned_detect=1; _m_h5_tk=8331f8e2362e852480b85ce476037326_1730740092303; _m_h5_tk_enc=e69c175be92525e3b98a473e1287c442; xlly_s=1; _samesite_flag_=true; '
+# 饿了么券
+export elmqqck="cookie2=2477ba691039307e9ed911846d8627e2e;unb=2204957856501;USERID=1067001106;SID=MjQ3N2JhNjkxMDM5MzA3ZTllZDkxMTg0NmQ4NjI3ZTJlM8kidb3ry4p2-HqSu8VPCg==;token=1_idc_1_510a3b6019d00da88b46bbd8fa0b73b6556e984560edbc2f919d7e194c01689127e4b8c442a7d17a7818f414a8d181c64057ca237831676e14154ad5ec0c731847f446c69de25399de7f8d52718ec238956c86fb9edd64f7cf3fbf4b70cb20e5a0ff7b4ce34c531fbdf19e23e9fd9d335f0a40aaa572e8bafa14925a912f783f;utdid=ZsQN9mKhFTQDAJsMQP2q+5Eh;deviceId=AoCMs4zNjSqP28_m_ys4HvmU1p3nFVx88iJ3EjeOcYGQ;umt=ySABMApLPGC5EgKSKPY+zWTnI11ic0lq;&
+cookie2=120bc962844bddbd3ced5faf3a893a8fe;unb=2204548324719;USERID=175157940;SID=MTIwYmM5NjI4NDRiZGRiZDNjZWQ1ZmFmM2E4OTNhOGZl9v54mdGW-ktGQhipKihKeQ==;token=1_idc_1_3fd73770eeb6bf3743b2bfc05b586b3886353f5bca5c22f66abeba9c87a5f7383b70a4f2055cd3d0533ce8a6fe49fdcd45b357aee806672c9fdb87a12a9e7d0525d33527bf199f1e22c2c2fc9c5c443e77ec57db32ff4f710bd1dad1eae9035d3c77a82da3f78d1cd346131663b3cb78b61f872be6bfca26c105d44d9ae9c458;utdid=ZtU06co8PAMDAJGrdR53quzO;deviceId=AopboEdYtosH4zU4hUDJI2rperQESMmImh5Phh_wZGCo;umt=Ud0B0iZLPHfGogKSKKDjEsPyRPq4qcQm;&
+cookie2=1064e67a8415043c4570ac6444106a6de;unb=1919905024743;USERID=3100178576064;SID=MTA2NGU2N2E4NDE1MDQzYzQ1NzBhYzY0NDQxMDZhNmRlg60j1LwPntpgzC6SRglB1A==;token=1_idc_1_b1aebc27eaa43fb7e2324ca417095fd4542b3212bbe980c2bad0f27d2cd969676153b4caba6eb0adaaa31f3525484cd337292d49b1e9716a3c67f805146ec278877355749fc82eac9e615d511c89ba3c18ed82f05b813abb690b842b0dd1851999be1b256a1fa3fce2d3301403b1842eaa7f3d0cb1faf71d8e775ce65ea99576;utdid=ZtVn9RUP/R8DAGh42OLtPonk;deviceId=Al_5xWae22koPzMT7Wxnc_qeZvNtmw82tvBtV_AcsEIY;umt=AvoBOBBLPEWKYAKSQ7a8Uz0kIGn98n7l;"
+######################饿了么   END######################
 
 # 招商信诺
 export ZSXN='oSWTishtFMENAzyS39dD7upE5JqI#okz730JxZv5Zr8csFdBUU4-gER2Y#KiORiD7VGh5FppB+uCdoPoXd6icYnkUW7Mtoeut1kyCHdJ7yw4RrvUPcJ61XGQEvdRUVuZO0yKmTzKNPYPCoI8ly6dy2MsrIZeTl6QRXgRhuQJuUenKc/bvcIKHtWFdM5+dbi3D7tEb8h0cgwu4CBvZhbRO28G9i9ozfSWqBNXs='
@@ -20,59 +27,59 @@ export ZSXN='oSWTishtFMENAzyS39dD7upE5JqI#okz730JxZv5Zr8csFdBUU4-gER2Y#KiORiD7VG
 export KSJSB_COOKIE7='kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSoAEL-yiH0RFF5IRmMqAJNCKTnOasoONtPH_E8aZ_jkCFdvPjfESkkTlFjyY7INWykJrmGjE67b2iL5QtmoZyD8frCGtfhKA8prq-3qVf4onQNdVvNvnkxidK2DBUwWERDodB9MeYf4OIPJLitAUp20Md_hWsx4SZ3juc1chxofua7cqHmQSbEXb_bwImWNDIoS0U4MvfB1HfTue0wvP_j2VyGhJrNN-fL8lNH4AKLNFPdkh-L7kiIBJvE3dAjSjtYODvhJR8Yng3L91hNS-Iw0E7yXcZhMy1KAUwAQ;__NSWJ=;region_ticket=RT_8A1A77D9379E206548FEE1FD8D0EB73DB7A26470CA0124725A947E7890947AE7131EC2D83'
 
 # 探子报
-export yuanshen_tzb="932d6e39979926b847e1f07b4f26ee2c
-02c2d09218294a4c1851fb281d27ade1
-c9bd256d1d879a85c0064b3668d7e792
-7212a5aa6c8ddf2de80a9d7271ca888d"
+export yuanshen_tzb="e0a0946a3642b036d566ab0eb7bec16e
+5bb1d975c98c383845d81b878ac59af6
+2d18829dd4eefd4c62193ea07f87cbd8
+d7666c9a97c633f0976260930e863ae5"
 # 探子报天天抽奖
 export tzbCk='[
 	{
 		"userNameBak": "0730",
-  "random": "8yEkH4hx7Y",
+  "random": "SM5wPXP7RC",
   "terminal": "xcx",
   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275",
   "content-type": "application/x-www-form-urlencoded",
-  "timestamp": "1730767230",
+  "timestamp": "1731026625",
   "xweb_xhr": "1",
-  "user-token": "932d6e39979926b847e1f07b4f26ee2c",
+  "user-token": "e0a0946a3642b036d566ab0eb7bec16e",
   "uuid": "5661385c-43a2-4e7d-a334-99d0495abae8",
-  "sign": "6e746649724ec678f6264823fca26b9b"
+  "sign": "c4d2f52db7be4afa6b6bc3ab2357ed6c"
 	},
 	{
 		"userNameBak": "5344",
-  "random": "anSHBPfHWe",
+  "random": "PksfS3JQTx",
   "terminal": "xcx",
   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275",
   "content-type": "application/x-www-form-urlencoded",
-  "timestamp": "1730767461",
+  "timestamp": "1731026872",
   "xweb_xhr": "1",
-  "user-token": "02c2d09218294a4c1851fb281d27ade1",
+  "user-token": "5bb1d975c98c383845d81b878ac59af6",
   "uuid": "5f1f64d3-7786-49e8-af78-addddec7dfe0",
-  "sign": "3f04b1e550b6285bb40967ef1db6be6d"
+  "sign": "838f25acb600dfed85c52d298c85332f"
 	},
 	{
 		"userNameBak": "8104",
-  "random": "FQ22swiHwJ",
+  "random": "wFEMCKpbkQ",
   "terminal": "xcx",
   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275",
   "content-type": "application/x-www-form-urlencoded",
-  "timestamp": "1730767416",
+  "timestamp": "1731026832",
   "xweb_xhr": "1",
-  "user-token": "c9bd256d1d879a85c0064b3668d7e792",
+  "user-token": "2d18829dd4eefd4c62193ea07f87cbd8",
   "uuid": "30d8f378-dd24-4558-a081-a64ec422edde",
-  "sign": "8e106b0a72d0cf60b56ca5436a0f9a08"
+  "sign": "2b42654967235323c7bad62b328f352f"
 	},
 	{
 		"userNameBak": "5833",
-  "random": "weXay3nyCd",
+  "random": "NssBt6SZhB",
   "terminal": "xcx",
   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275",
   "content-type": "application/x-www-form-urlencoded",
-  "timestamp": "1730766670",
+  "timestamp": "1731026534",
   "xweb_xhr": "1",
-  "user-token": "7212a5aa6c8ddf2de80a9d7271ca888d",
+  "user-token": "d7666c9a97c633f0976260930e863ae5",
   "uuid": "8b8b1871-2f15-4629-a93e-bc0333f11e08",
-  "sign": "b107fdd9e19e9c6843dc06d842d87a44"
+  "sign": "8717bc2d3415e01eddea6d9c81510e0a"
 	}
 ]'
 
@@ -256,16 +263,11 @@ https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?sourc
 ]'
 export YiLi_Open='true'
 
-# 饿了么券
-export elmqqck="cookie2=2477ba691039307e9ed911846d8627e2e;unb=2204957856501;USERID=1067001106;SID=MjQ3N2JhNjkxMDM5MzA3ZTllZDkxMTg0NmQ4NjI3ZTJlM8kidb3ry4p2-HqSu8VPCg==;token=1_idc_1_510a3b6019d00da88b46bbd8fa0b73b6556e984560edbc2f919d7e194c01689127e4b8c442a7d17a7818f414a8d181c64057ca237831676e14154ad5ec0c731847f446c69de25399de7f8d52718ec238956c86fb9edd64f7cf3fbf4b70cb20e5a0ff7b4ce34c531fbdf19e23e9fd9d335f0a40aaa572e8bafa14925a912f783f;utdid=ZsQN9mKhFTQDAJsMQP2q+5Eh;deviceId=AoCMs4zNjSqP28_m_ys4HvmU1p3nFVx88iJ3EjeOcYGQ;umt=ySABMApLPGC5EgKSKPY+zWTnI11ic0lq;&
-cookie2=120bc962844bddbd3ced5faf3a893a8fe;unb=2204548324719;USERID=175157940;SID=MTIwYmM5NjI4NDRiZGRiZDNjZWQ1ZmFmM2E4OTNhOGZl9v54mdGW-ktGQhipKihKeQ==;token=1_idc_1_3fd73770eeb6bf3743b2bfc05b586b3886353f5bca5c22f66abeba9c87a5f7383b70a4f2055cd3d0533ce8a6fe49fdcd45b357aee806672c9fdb87a12a9e7d0525d33527bf199f1e22c2c2fc9c5c443e77ec57db32ff4f710bd1dad1eae9035d3c77a82da3f78d1cd346131663b3cb78b61f872be6bfca26c105d44d9ae9c458;utdid=ZtU06co8PAMDAJGrdR53quzO;deviceId=AopboEdYtosH4zU4hUDJI2rperQESMmImh5Phh_wZGCo;umt=Ud0B0iZLPHfGogKSKKDjEsPyRPq4qcQm;&
-cookie2=1064e67a8415043c4570ac6444106a6de;unb=1919905024743;USERID=3100178576064;SID=MTA2NGU2N2E4NDE1MDQzYzQ1NzBhYzY0NDQxMDZhNmRlg60j1LwPntpgzC6SRglB1A==;token=1_idc_1_b1aebc27eaa43fb7e2324ca417095fd4542b3212bbe980c2bad0f27d2cd969676153b4caba6eb0adaaa31f3525484cd337292d49b1e9716a3c67f805146ec278877355749fc82eac9e615d511c89ba3c18ed82f05b813abb690b842b0dd1851999be1b256a1fa3fce2d3301403b1842eaa7f3d0cb1faf71d8e775ce65ea99576;utdid=ZtVn9RUP/R8DAGh42OLtPonk;deviceId=Al_5xWae22koPzMT7Wxnc_qeZvNtmw82tvBtV_AcsEIY;umt=AvoBOBBLPEWKYAKSQ7a8Uz0kIGn98n7l;"
-
 # cron "30 30,35,40 9 * * *" DaChao.js
 # export DaChao="账号1&密码1#meber 账号2&密码2"
 # member抓/api/publichy/client/activity/info?source=wechat
 # export OCR_SERVER="ocr服务"
-export DaChao='19546115344&Java1314&{"id":"9cc0ec80de193484e6287b1f7be3eddb","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"cd153b02506a86e98bf6c04adc11ba8a","expire":1730812713,"token":"dc313a877bf3d2c6c00fe0c805121b482db59328","source":"wechat","mobile":"","mark":"oKa1V67t1Hmccubgu9gAl0zO8oTk","mtoken":"14bccbfd862162cd76349090bfce1ede3999a672","stoken":"cb4548174a1dedff9e7746c4192c5c13","nick_name":"%E4%B8%80%E5%8F%AA%E5%A4%A7%E7%99%BD%E8%8F%9C"} 15165150730&Java1314&{"id":"ff19efd9681fa241332096e71f0242a1","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"dbd11a9cf94b179e8f42238fcd3092c4","expire":1731116918,"token":"c7bbffc3d91a4dc2356326e1810595c0f1de37d3","source":"wechat","mobile":"","mark":"oKa1V65tjiDw8YYqXJetSd1wqqDk","mtoken":"f7e62f08737a00a04c2dabca1ca4152685c463c6","stoken":"4ba617bf44a630adea9ffd65b25d658f","nick_name":"%E4%BD%8E%E8%B0%83D%E6%A0%91%E8%8B%97"} 15194115833&Java1314&{"id":"ffca74106fe63732759afa2479df6ed2","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"7e051d1a2f4c2363d28c297f59c89769","expire":1731163089,"token":"3c528a0401b39c3969506282ba2a799582e686a5","source":"wechat","mobile":"","mark":"oKa1V69iwlJzYwvb7xfelRSpNZYM","mtoken":"17a916e1a916df4f3132c59d3498d7c21734f566","stoken":"4209dafff6b049ba3cd579a8bef647ec","nick_name":"QiQ"} 19016418104&Java1314&{"id":"77ced47cdc8a1f2c68ecaaf0a5d96b20","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"3d1d960748f0d69ff0f57a3236cf4b87","expire":1730958953,"token":"7089deedbaf249882ce52c64faa1a04137413ce2","source":"wechat","mobile":"","mark":"oKa1V6_D9WR9_HQmh7Q6e9P-DcuY","mtoken":"fa2af32c96b5b3cca81641ddb6dbdea1111bf6f6","stoken":"b04a54d03541f9ae3537cbca2ddb81e0","nick_name":"%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%9D%BE%E8%AE%B8"}'
+export DaChao='19546115344&Java1314&{"id":"9cc0ec80de193484e6287b1f7be3eddb","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"c6d0a7794e86adfd51e539e699358c91","expire":1731900697,"token":"eafb927b59f68d09819e19fc328ce4e6ccdc3924","source":"wechat","mobile":"","mark":"oKa1V67t1Hmccubgu9gAl0zO8oTk","mtoken":"9896a839ee6be1ea6e70bc4a39bce33952a0db96","stoken":"f24022decdde2c9ddf68555f2e900d10","nick_name":"%E4%B8%80%E5%8F%AA%E5%A4%A7%E7%99%BD%E8%8F%9C"} 15165150730&Java1314&{"id":"ff19efd9681fa241332096e71f0242a1","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"dbd11a9cf94b179e8f42238fcd3092c4","expire":1731116918,"token":"c7bbffc3d91a4dc2356326e1810595c0f1de37d3","source":"wechat","mobile":"","mark":"oKa1V65tjiDw8YYqXJetSd1wqqDk","mtoken":"f7e62f08737a00a04c2dabca1ca4152685c463c6","stoken":"4ba617bf44a630adea9ffd65b25d658f","nick_name":"%E4%BD%8E%E8%B0%83D%E6%A0%91%E8%8B%97"} 15194115833&Java1314&{"id":"ffca74106fe63732759afa2479df6ed2","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"7e051d1a2f4c2363d28c297f59c89769","expire":1731163089,"token":"3c528a0401b39c3969506282ba2a799582e686a5","source":"wechat","mobile":"","mark":"oKa1V69iwlJzYwvb7xfelRSpNZYM","mtoken":"17a916e1a916df4f3132c59d3498d7c21734f566","stoken":"4209dafff6b049ba3cd579a8bef647ec","nick_name":"QiQ"} 19016418104&Java1314&{"id":"77ced47cdc8a1f2c68ecaaf0a5d96b20","appId":"wx2e98fb1d45a98f73","black":0,"btoken":"3d1d960748f0d69ff0f57a3236cf4b87","expire":1730958953,"token":"7089deedbaf249882ce52c64faa1a04137413ce2","source":"wechat","mobile":"","mark":"oKa1V6_D9WR9_HQmh7Q6e9P-DcuY","mtoken":"fa2af32c96b5b3cca81641ddb6dbdea1111bf6f6","stoken":"b04a54d03541f9ae3537cbca2ddb81e0","nick_name":"%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%9D%BE%E8%AE%B8"}'
 
 #微信小程序IQOO社区，抓包authorization，青龙设置变量名iqoo值为authorizatio@要兑换的商品id，抓一次30天有效
 #600356，哔哩哔哩 600336，肯德基10元 600335，必胜客20 600334，Qq音乐 600332，腾讯视频
@@ -313,13 +315,29 @@ export IQOO='[
 export yuanshen_bnhg='ae85b57ecfee46b68dd40425a9dde31f'
 
 # 霸王茶姬-微信小程序
-# export bwcj_ck="token#userId"  多个换行
-# 8104#5344
-export bwcjCookie='2dRpUveGu7jGdvSTLShAtRzIav3pyZ3YXX_z0usmkvvvbe1GC9BVTXJqMV6YEYb8#1043584100904214528
-le5VjDwbsELqLDyoiim1xa4NVsV9v58WqzpZG3NekngVRKXiRLzmzfvIJCImfe5A#1043582132064251904'
-export bwcjck="2dRpUveGu7jGdvSTLShAtRzIav3pyZ3YXX_z0usmkvvvbe1GC9BVTXJqMV6YEYb8
-le5VjDwbsELqLDyoiim1xa4NVsV9v58WqzpZG3NekngVRKXiRLzmzfvIJCImfe5A"
-export BWCJ='2dRpUveGu7jGdvSTLShAtRzIav3pyZ3YXX_z0usmkvvvbe1GC9BVTXJqMV6YEYb8#le5VjDwbsELqLDyoiim1xa4NVsV9v58WqzpZG3NekngVRKXiRLzmzfvIJCImfe5A'
+export bwcjCk='[
+    {
+        "userNameBak": "0730",
+        "userId": "1024278571388502017",
+        "qmUserToken": "al67bTizjOO-IdwxcL9e2byxXF8W6vX-VtWxfjsjhBsBd-Y2RG3cPG_L6Ro5IJsI"
+    },
+	{
+		"userNameBak": "5344",,
+        "userId": "1043582132064251904",
+		"qmUserToken": "GPCtszprs8cBqtLf_y-3Mk4dutZw7gqriBdmCTtfGTk5Vl-NAFgzOMOFAtQofpLl"
+	},
+	{
+		"userNameBak": "5833",,
+        "userId": "911950313053802497",
+		"qmUserToken": "C4GY-gkf7H5qo2oOgFoa5kUymYSjchHfb3fRAZQYd6LwM53LFQj961izYEvTuxvt"
+	},
+	{
+		"userNameBak": "8104",,
+        "userId": "1043584100904214528",
+		"qmUserToken": "T2hKmKL3DkMUIEn5Dtve47OjNWfRbsa6O8L4_jHDSNvcYZgXW1ziv4DoeWBcxy-w"
+	}
+]'
+
 # new Env('中国人保');
 #by-莫老师，版本2.0
 #cron:5 1 * * *
