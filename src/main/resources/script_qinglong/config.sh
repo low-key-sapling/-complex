@@ -23,7 +23,7 @@ cookie2=1064e67a8415043c4570ac6444106a6de;unb=1919905024743;USERID=3100178576064
 export LongHuTianJieCK='15165150730#f697dda9e36c4256ba70589901bf8bd8'
 #baby care旗舰店
 #0730,5833
-export babaycare='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlblZlcnNpb24iOjE5MTA1ODQ2MTE3NDY1NjYxNDYsImNsaWVudE9zIjoyLCJpZCI6IjE5MDk5OTU5Njg5NDI3OTY4MDEiLCJleHAiOjE3NDQ5NTg2NDN9.8hRYqb8Jpc6ERKNQ__cTff_lLI6T0xXuFzmjFluIBmY
+export babaycare='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlblZlcnNpb24iOjE5MTQyMDgxNjY5MjY3NDU2MDIsImNsaWVudE9zIjoyLCJpZCI6IjE5MDk5OTU5Njg5NDI3OTY4MDEiLCJleHAiOjE3NDU4MjI1NjV9.0aoj_s8qvwrgw560-bNOGeS8WLU8Y1D90XjSgzll90E
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlblZlcnNpb24iOjE5MTI3OTMxODY0OTYyNDk4NTcsImNsaWVudE9zIjoyLCJpZCI6IjE5MDk1NTk2MjE1NzkxMjg4MzMiLCJleHAiOjE3NDU0ODUyMDh9.0NJHuJPUFC_Q_Tpfskb4cKcioVSqBvOgJLtC3pkb0CE'
 #浓五的酒馆 0730&8104&5344
 export NongWuBarCK='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJtaW5pYXBwX2N1c3RvbWVyIiwic3ViIjoib0JMbkk1WGd0Sm9NaGxKRFdyMU1kRml0M04tYyIsImV4cCI6MTc0MjUxOTE2M30.jzhFcqbPKb4CAJh1rpPsa0J-dkdmAKrnpoBHksI82Ktzue3iBcOVPDUn7_iiyr1j4ivUaJRj-xOHk-ltgSWzPg
@@ -86,20 +86,20 @@ export MuSiCK='1900427259493810177#oaVFg5KmF5ozugLcV6qRkBNOCV9g#5344
 1900427029570834434#oaVFg5Jbe31pOpYhzW92Vk-5I7Hs#0730
 1895745915958648834#oaVFg5NljdGHbxCjZuc9Vlxg_9FY#8104'
 #海天美味馆
-export HaiTianMeiWeiGuanCK='eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE3ODE0MzksInN1YiI6IkJVWUVSIiwib3BlbklkIjoib2NnNnk0dW9IX2laREc3Z0xfQjRvbDVxSjF0ZyIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTc0NDc5MTExMCwidXVpZCI6InVzakQ4YzdYdXhWZVp5NkdPYUR4IiwidXNlcm5hbWUiOiJtXzAyNTk1ODA0NzU3In0.6vMIkwkR5gZiqAHsjve4llk4ZeOnisKhk5siTuCVvPMkgvmR0MVr2M0nJ0QHExjWze1u5hUBPqbT3S7SXyYhRQ#usjD8c7XuxVeZy6GOaDx#0730#emieY3
-eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE3ODE0NTIsInN1YiI6IkJVWUVSIiwib3BlbklkIjoib2NnNnk0cHMzNTNubS1rM05ydmNRVWxyQXYxYyIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTc0NDc5MTMyNiwidXVpZCI6InVycHhHR1Z2ak9samFCMXlVNFpEIiwidXNlcm5hbWUiOiJtXzM0NTU3OTAwMzk5In0.yCrOs7fUB8mSQPODaj5VTQghWZC4t0DbnohZi6jtB2q5JgW7Jmpq6VDZ9GWeUacYWBKika2WCScWbsnQbJLKpA#uUUFjqXU15ukhqvzAI8L#5344#IVBr6r
+export HaiTianMeiWeiGuanCK='eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE3ODE0MzksInN1YiI6IkJVWUVSIiwib3BlbklkIjoib2NnNnk0dW9IX2laREc3Z0xfQjRvbDVxSjF0ZyIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTc0NzEyMjEyOSwidXVpZCI6InVzakQ4YzdYdXhWZVp5NkdPYUR4IiwidXNlcm5hbWUiOiJtXzAyNTk1ODA0NzU3In0.G1NDjWYvgzQGfLmcQhg5Bl0VPODsoVh2X6xiW76CAVt11STEHeVXa51HX24RM8zj5jcRb03ur72j_vhIbDRbcA#usjD8c7XuxVeZy6GOaDx#0730#emieY3
+eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE3ODE0NTIsInN1YiI6IkJVWUVSIiwib3BlbklkIjoib2NnNnk0cHMzNTNubS1rM05ydmNRVWxyQXYxYyIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTc0NzEyMjkzMSwidXVpZCI6InVycHhHR1Z2ak9samFCMXlVNFpEIiwidXNlcm5hbWUiOiJtXzM0NTU3OTAwMzk5In0.rjBCm_6Dz-f04D8Jnk4E-q1q2M-AQ6Hi5auTn_xaq_luDWflV_TiHQFHu7v5hwF9lId-gQ-qtolHHb7qVyAVJw#uUUFjqXU15ukhqvzAI8L#5344#IVBr6r
 eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE3ODE0NjcsInN1YiI6IkJVWUVSIiwib3BlbklkIjoib2NnNnk0cTFUV0stb2dDRDlUU0Y4bmViVnl0OCIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTc0NDc5MTQxNiwidXVpZCI6InVXY0diM2gzOVhxSldxNmpwWDVkIiwidXNlcm5hbWUiOiJtXzkzOTA3MTM4NTAzIn0.64A8C5zYemWzozXLAq3rLpxQvs8aqS4-j78pDI4cFlnhCYqcOhgIBRe4uIgynZ-vx0v0sDYnoZVliZmyzMqKdw#uWcGb3h39XqJWq6jpX5d#5833#IBZJbm
-eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE3ODE0NTgsInN1YiI6IkJVWUVSIiwib3BlbklkIjoib2NnNnk0dU9VQ1RiSXJDVW9MY3dyLWdNM0FCQSIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTc0NDc5MTIxNywidXVpZCI6InVaeGhLaTNTdjVzVndIWDFycFJSIiwidXNlcm5hbWUiOiJtXzI3ODI2NDAxNzk1In0.24vFcu_SN3xeF0bMz54OxuhBQP3GsGecocmlmj2-GDXLfy2Nu_EYDZNNeKBJTqpC3rVzZqHA7NH2nqC6Dyn35Q#uEGWQS8L1rGfR8O2y3RH#8104#BNjiqm'
+eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE3ODE0NTgsInN1YiI6IkJVWUVSIiwib3BlbklkIjoib2NnNnk0dU9VQ1RiSXJDVW9MY3dyLWdNM0FCQSIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTc0NzEyMjQ5NCwidXVpZCI6InVaeGhLaTNTdjVzVndIWDFycFJSIiwidXNlcm5hbWUiOiJtXzI3ODI2NDAxNzk1In0.I4iW639mULPh4D6tiyK6J8-HQh4MuETP7rAdoCXG6Ngn6dY7C_ldsjZVLszpvd8XXTbIG7a6SmPvcQRz-UJ6wg#uEGWQS8L1rGfR8O2y3RH#8104#BNjiqm'
 #国乐酱酒
 export GuoYueJiangJiuCK='MereyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0Njc2MTQ2MSwidXNlcklkIjozOTAyMiwidXNlcm5hbWUiOiJvSzR3T3M1ZWN5YUdIeUg5Uk93dHhuelJHNUdRIn0.yDYv7QEQP_Hg7IdydHlQUoW7fPiuS1Y9UD56-hyarFI&0730
 MereyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0Njc3ODI1NSwidXNlcklkIjozOTAyMywidXNlcm5hbWUiOiJvSzR3T3M4Q3g5dXFpeFIxSk9FbDV1c1RQR3hZIn0.1Z8w-9KuXGaMbxqDpTVSsc16uMhFKu_wD0evSSMk4Yo&5344
 MereyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0Njc3ODE3OSwidXNlcklkIjozOTAyNCwidXNlcm5hbWUiOiJvSzR3T3M3aF8wRzRlR2p5R1BYcDNYXzZmbkFnIn0.ZMe113zNYcGVKorqfxJLeXvJ6RON5zvuhmKyDgoUtdU&8104
 MereyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0Njc3ODY3MywidXNlcklkIjozOTAyNSwidXNlcm5hbWUiOiJvSzR3T3M4M0ZQQXJMS24wd3ZXQ0tiTWtXY2lVIn0.zTvmoJDVKl0uIodDHRmNyALvK_BTcn3fgb28WnpbFG4&5833'
 #逢三得利吧
-export FengSanDeLiBaCK='671793ef-0878-45fe-a041-cb2083f47277#0730
-56c09ad5-3b85-4cf7-b10d-4cc11c7b6476#5344
-4c285dac-9b93-48c9-9225-90ed3e9938b5f#8104
-ace73d4a-d2b5-4884-b923-61bbd4e492ef#5833'
+#ace73d4a-d2b5-4884-b923-61bbd4e492ef#5833
+export FengSanDeLiBaCK='d299b777-aded-4c74-8fa1-fe98e40eb709#0730
+9add2d3a-da1b-4f99-b4d0-ee12dd50acbe#5344
+cdf41a97-61c4-4d85-a898-1a35d148dc94#8104'
 #鸿星尔克 0730#5344#5833#8104
 export hxek='ff808081951e83710195272bc4814422
 8a80818b951e84180195272fd6882ada
@@ -118,9 +118,9 @@ e042982b772c33680dc1ded09f65d2585a163bb2
 bb9f945c5c85684ce8421f90dbf133a4708412c2
 1fe03cc65a7d56408f16bb9e9a00b1c376a4a04c'
 #荷叶健康-果园
-export heyeHealth='9e8af0cec57cea57ab4625cc69d9d959#5344
-641ffff91db704589dacc7e5ad61eb81#0730
-b84fe9820357c7bcd2d82d55588cf8fb#8104
+export heyeHealth='b9fb4db5f79d4e661c81faf705e3c120#5344
+e6d86cf893a9e04c4332cc7383f6422d#0730
+890915731f1f630d703137c94dacb620#8104
 b32a61d6a507b4b01224b12de5c8bae7#5833'
 #青碳行
 export QingTanXingCK='bbf70fe5b0f5cd71c9479e88f83921c4&wxDevice
@@ -366,13 +366,12 @@ export Huaji_YP_YY='15165150730#Java1314#yuanjifan@foxmail.com#袁际范
 
 # 福田E家
 # cron "39 11,19 * * *" FuTianEJia.js
-# export FTEJ="账号1&密码1 账号2&密码2"
+export FTEJ="账号1&密码1 账号2&密码2"
 export FTEJ="19546115344&Java1314
 15165150730&Java1314
 15194115833&Java1314
 19016418104&Java1314
 13176254699&Java1314"
-
 # vx爷爷不泡茶
 # cron " 10 8,18 * * *" YeYeBuPaoCha.js
 # export yybpc= qm-user-token 多账号换行或者#分隔
@@ -432,12 +431,13 @@ export chinaUnicomCookie='6463c7fdbd87986812620340e0d8028317e8e2f154badd51da9381
 # 采蜜游戏入口: 我的-积分抽奖-拉到最下面收件兑奖
 # 积分可以换快递优惠券,爱奇艺周卡,肯德基代金券和各种实物
 # 默认不运行采蜜游戏, 需要运行的设置变量 sfsyBee 为true (字符串true)
-# 0730#5833#8104#5344
+# 0730#5833#8104#5344#85855
 export sfsyBee="true"
 export sfsyUrl='https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=8z5f%2BoykXhzzBsX00fBfI6fY0E%2BGegBnTMz72i7PWiU%3D&openId=o81FkTQBfvQp%2BIE4scMflUbtq7JPpVK9RUBRuFhm%2FI8%3D&memId=qi%2F%2BX7aN1k8sff4Q6YU871igl8E7tqB5lsYmdi0cbvIDdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6X7C3yE1YrxSFNC43WosAIIDdjSr%2F6X0WoiZtgGzs7sG&mobile=Y1AbjGmH3I%2B%2B88BewECWOA%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=pohqvB2z%2FHn%2FAaMVvH54AFZT4ivtlm44FgEl5%2FogBC8%3D&openId=weQpAz9zXmrhyiW9TsZs065RYRUxQo174gUpNT%2F6omk%3D&memId=Gp2abcMJpVhXmhHAcUIRHz07YrQCWHeNLTj0CecIU%2FkDdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6XZOOeYV8ff4p7m7OUfK8xgDdjSr%2F6X0WoiZtgGzs7sG&mobile=KASjhsnj5dIP16cdbu5ccA%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=D8m2bSCfEgIFutEKGHL1mU2y5lqdMITfXMS4ZXwMijU%3D&openId=z98p5zuVdf10l%2FcSz3rXbmrLVc1SPHLr5ngEWCown7g%3D&memId=ebT8CjYmypb3tRaQeclvge%2B4dvOh7KBNRY8pHlvuFn8DdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6SIPOgCV2QCcrHEy0y%2FoGt0DdjSr%2F6X0WoiZtgGzs7sG&mobile=ZNExzyTuh3HdrEPvMHdCPA%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D
-https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=JKC5vN4r5zCc9ec%2FS4%2Fe6ZdVHKJxYRbv5CoOI8T5XFM%3D&openId=Pl051JRYVG%2BTxBX%2FZXYOIEzNxrZGbGLgawTWlKFPfiE%3D&memId=6UXr8F2zYAacD2D0URtGiE26TOUlTNr1zgl8KF%2BQSSADdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6RxjMGij0WlzSJK5OWU2vz8DdjSr%2F6X0WoiZtgGzs7sG&mobile=IPIt0HYH4Sr%2BbJpIPa7XWg%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D'
+https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=JKC5vN4r5zCc9ec%2FS4%2Fe6ZdVHKJxYRbv5CoOI8T5XFM%3D&openId=Pl051JRYVG%2BTxBX%2FZXYOIEzNxrZGbGLgawTWlKFPfiE%3D&memId=6UXr8F2zYAacD2D0URtGiE26TOUlTNr1zgl8KF%2BQSSADdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6RxjMGij0WlzSJK5OWU2vz8DdjSr%2F6X0WoiZtgGzs7sG&mobile=IPIt0HYH4Sr%2BbJpIPa7XWg%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D
+https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=Dk6dr06R1wfF4ZWjaqh1IUhUJB%2BakvyD9Qx1O3OV7Zg%3D&openId=9G5XCfFDxivNFByK4ynM54ZpIeWi%2BvylBHSgzr27Jj8%3D&memId=3s6XqEumqBURaSyg6v2WN7Ckk3sSvxzP%2FAnFzqbzQrkDdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6bOf8DtadVBCcxhB0SwQjIADdjSr%2F6X0WoiZtgGzs7sG&mobile=l50pFoNcPdAq%2BSza5IYdxQ%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D&citycode=531&cityname=%E6%B5%8E%E5%8D%97'
 export ShunFengSuYunCK='[
     {
 		"userNameBak": "5344",
@@ -504,7 +504,7 @@ export iqoo='Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9
  # export IQOO_Acc="0"//第几个账号
  # export IQOO_GiftId=''//兑换ID
 export IQOO_Acc='0'
-export IQOO_GiftId='1700067'
+export IQOO_GiftId='1700107'
 export IQOO_Query="false"
 export IQOO_Create="true"
 export IQOO='[
@@ -512,22 +512,29 @@ export IQOO='[
 		"userNameBak": "5344",
 		"id": "6046809",
 		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
-		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NDE2Nzg3MSwiZXhwIjoxNzQ2NzU5ODcxLCJuYmYiOjE3NDQxNjc4NzEsImp0aSI6IjBScFM1VTZ3UTJJMHR4Qk4iLCJzdWIiOjYwNDY4MDksInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.cWW-00JTugWogkCQt5gOhrfH9WizEFlN4uLB1H2nEnJ_t5Sgq2-xbLwAbsWvqgXWJn1Vkwq4efbUyryD2k9Zj-xRdaDccPt2FCZ9NthAE-qt6Gn3lRI1AHmHinAl98vs78G2FVj7lNOGwDvb9-5aTTiVHyqiis1A20rX2tpYqKWOGbIsfpCtGTLbZuIQFumobPq7fkHXJ5aiR6eRosfkLxMRL-CcBDnLlpdQRPK1eBJvy0S_dGjdtMZ-aXRjt0lArnvrl_Iptj1YI8xw8VB0ayS98TxD5sDcdpFgo2ECGmjskLGNyh2nPP2ZoXUEINsiOm-meMYrvU-xt-9iEFrbwA",
+		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NzM2MTkxMywiZXhwIjoxNzQ5OTUzOTEzLCJuYmYiOjE3NDczNjE5MTMsImp0aSI6Iml2Q0Nkb3ZoRndMS2dDUVoiLCJzdWIiOjYwNDY4MDksInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.dnKE_g0J-GLAGwbjj6GtyMNsAmoKyTcOa1RLl8arWuP3r2zqfIwder3L5tnwGojkplDibjzppTjbcBKbTWdYSknsURcTxX2aLr2x0QCIY9crqqvxrVKG5xbuje86HudNv3V24g756vTk1Qg7vRcbc9YT0Og4Wu14I_ok9IuxwB8OgEi87mgHZfWMwbIAsjgWlF4uHpwV-kVONM-e1mK_O86KBME9XaneiY18Ex7ugLbTiL0cgeG4W32ong9KzCyuWunFfpEZgkLdff3qTmzj70FfCWRvKzuzqAw4AtPopZhJab4YUeWZvQZnj4CwYjYReZkg5aCFCYfE6ychIE45Bw",
 		"defaultId": "902465"
 	},
 	{
 		"userNameBak": "8104",
 		"id": "6046773",
 		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
-		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NDE2NTY3MywiZXhwIjoxNzQ2NzU3NjczLCJuYmYiOjE3NDQxNjU2NzMsImp0aSI6IkdHODJQZ1FZa05XOXdlcHMiLCJzdWIiOjYwNDY3NzMsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.te6YKeItRmAm4Tx1srBrODWborETWzxR1A8gu-z_UfCEYEWitnEHxx7RnNDZcTCCgoMjwpYQlTDSJES3VN-fMCIUYWV74-G64t0TBw1n36_CacfjRDZehLH66zFvAl0i6KjJViFxH9z1CNs-rK9EMYELZef9Hzr9gDOThmoGjMYNe4GpohM3XMaaV2ZpwWlS68e1pnQJKNuP65F9BWK1OsTCV5Seh49NrE5yhOkmuXzYDDQjaEUsN53CR__F5OsitrjSVkl55MERanQsTSrA_TiHeZj7W8mX1yG5RDI2keXvUpyFRAEsCz_9TWJlkjzsqc-ZYJfIVd8Vd9GmWlEaAw",
+		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NzM3NDY2OSwiZXhwIjoxNzQ5OTY2NjY5LCJuYmYiOjE3NDczNzQ2NjksImp0aSI6ImpibGdRZG1iMDF2YW5wRTAiLCJzdWIiOjYwNDY3NzMsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.RBZ3yhVE_CMaigwl4YETqrbXUJdilJDBvnYmUgDdPMQAZ4OCeGW9g9ed2D9VdAb9mrjaHqcrHMQeQlKRXCiwHGmuYXRb6HZSaKCA0ZxkhruaIqvM-80awpBwToI8o3dZn2yjwmr_OX-M8f1J12EJbnACIL03qVRc33jdUanzMTcVqFHqWiUTqtDnQarvZWzh8XBbqrtIlF61x1A3NtllJL2j6N2YMSEAQ9yQClBQ5OtyXq4Kwe-hnv9P6JCH9eC0jlllAoFHSz4PLFa4pd3l2NwSv8uzAu9Nej2kSFAEKjMhC4uRAQDl2wiy6pig7vChyd-VEEJRZyv89HtVRVATrQ",
 		"defaultId": "1400292"
 	},
 	{
 		"userNameBak": "0730",
 		"id": "5751218",
 		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
-		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NDE2NTQxNSwiZXhwIjoxNzQ2NzU3NDE1LCJuYmYiOjE3NDQxNjU0MTUsImp0aSI6ImphcUhnZWN1Vm9YUUxNRHoiLCJzdWIiOjU3NTEyMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.lOsOD_TLWNNjV4HXsF3MtB4BmwvahnfPfSGEPIGDBmJ-cd5ooisn9gbc_MkJKgmRiQpeF1X8A9X7sMJSESf-rxqrWyhUugx4zc68RrNXSOEUtvc8WPy5OaQWXlsmwSol_zqG3HjiMNX-mrJwmyNbd92j0LPxRLBTxQ_JQHTvZYozrZh0BBzLyM-XsekVQ9k8umF2x36huj15zH3OUU694gwr1NUVaD6A7ghySnohLiwODp3cIGj2EGk_KRvZVauxaMNliUDEM3_P3ibq6yQ_Teei8lp2Iqr9fKVcjK3pKTpl9FXZtq3TC33Bh-iCyZ5Ig9qWN775YjL3G843S9VMIg",
+		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NzM2MTc2NiwiZXhwIjoxNzQ5OTUzNzY2LCJuYmYiOjE3NDczNjE3NjYsImp0aSI6IjRjdVcyMnNFSXdwQ2xZZ3EiLCJzdWIiOjU3NTEyMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.WuQbeoWHy_hRf-pIyNhyqZ7xl_vnLWPQ2JAv5ylLKGbsC6a0W89amFKjLJRuFVJgO6mdTEHzcJmTm0luofU4MvP_wgCf0w15tULbKx1kDga9N_4zrksxNySsthBfwkjGEvr8PjnScHRmo58ydAq4mMdpj10b7Iz_yTDzm7doS5qitaLQLCV66uJG6s4wqlCiPchcJMglQz47U71s5ri7pTcQ-sFvqbgrsdcq6oIQdYAuyyvQHsCM9pVAuuBRTMetHYVPhJyM7Kdq_J_IQQV1ERsj17rARX3O11sQWbiLqeF5v2rQKQiOBsX5FFb0ekxtkICUfnNR9_nt6VWYqV8H4Q",
 		"defaultId": "1101401"
+	},
+	{
+		"userNameBak": "85855",
+		"id": "8182410",
+		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
+		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NzQ2MDg5OSwiZXhwIjoxNzUwMDUyODk5LCJuYmYiOjE3NDc0NjA4OTksImp0aSI6ImF3VTJhVlhmWUJabExHUGYiLCJzdWIiOjgxODI0MTAsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.AoYCUO6AfU0HUY8E2sxWK5aipkuJr6PrCa9qLxBZ4R79Q0kridGX8MZUs-KPN5mU_Ddd5pgt3lzSRd1AdhbOsV6OyoQNwJV0ekmVxMAhr9aYSvJ5C8S2ilc1wgdBeXr6wAoiY5vpoku3B2VtqOAHVCEjPRYjQ6gqkgXaRWehQOARJbxl9h-fIvKe2vEWZ7Zv9e3SU9kox_VWR-x6B_6q9wYmycRCV1T5nVhPWhZOu_ACaq2uOi7FQWrlr8vyR1lPXtoDC5ZopnISgRlx_DJ8U31U2R3ueW7DV0YU38SrLH6KgXAmc6Q8VsS6rG4mLd44lnYrXQ1Lo4ceJC5IlXx36Q",
+		"defaultId": "902465"
 	},
 	{
 		"userNameBak": "5833",
@@ -607,6 +614,10 @@ export XiJiu='[
 	{
 		"id": "5833",
 		"loginCode": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlvbmlkIjoib0E0b0QxY2k4b2lraXRDRTVhcjFqQWRhMlV3RSIsInVzZXJfaWQiOjAsImV4cGlyZSI6MTcyNjgxMTI5OH0.mo-UDzOgGHqxTJ-wGwqCATbZWR3r0lQ-RbxicsWEQd8"
+	},
+	{
+		"id": "85855",
+		"loginCode": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlvbmlkIjoib0E0b0QxYmFvNXBhQ01XVnVlRTc1clFhOTd0USIsInVzZXJfaWQiOjAsImV4cGlyZSI6MTc0ODIyNDA3OH0.j1vS5ha2j7aBT6ngZu9pWCLE_C6dpAQ3w3iSa4e_mEA"
 	}
 ]'
 
@@ -615,7 +626,7 @@ export XiJiu_Exchange='true'
 export OCR_SERVER='http://192.168.100.5:7777'
 ## 君品荟
 ## export JunPinHui="账号1&密码1 账号2&密码2"
-export JunPinHui="19016418104&Java_1314 19546115344&Java_1314 15194115833&Java_1314"
+export JunPinHui="19016418104&Java_1314 19546115344&Java_1314 15194115833&Java_1314 15165150730&Java*1314 17753185855&Java_1314"
 
  ## cron "30 10,18 * * *" QingDaoNews.js
  ## export QingDaoNews="账号1&密码1 账号2&密码2"
@@ -625,7 +636,7 @@ export QingDaoNews="15165150730&Java1314 19546115344&Java1314"
 ## export WangChao="账号1&密码1 账号2&密码2"
 export GHPROXYURL="https://ghfast.top"
 export WangChao="19546115344&Java1314 19016418104&Java1314 15165150730&Java1314 15194115833&Java1314"
-
+export wangchaoAccount="Java1314#19546115344"
  ## cron 9 9 * * *  XinXi.py
  ## 变量名: XSSONF
  ## 变量值:api.xinc818.com 请求头中sso的值 多账户&或者换行
