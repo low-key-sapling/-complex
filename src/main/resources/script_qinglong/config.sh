@@ -19,6 +19,7 @@ export elmqqck="cookie2=2477ba691039307e9ed911846d8627e2e;unb=2204957856501;USER
 cookie2=120bc962844bddbd3ced5faf3a893a8fe;unb=2204548324719;USERID=175157940;SID=MTIwYmM5NjI4NDRiZGRiZDNjZWQ1ZmFmM2E4OTNhOGZl9v54mdGW-ktGQhipKihKeQ==;token=1_idc_1_3fd73770eeb6bf3743b2bfc05b586b3886353f5bca5c22f66abeba9c87a5f7383b70a4f2055cd3d0533ce8a6fe49fdcd45b357aee806672c9fdb87a12a9e7d0525d33527bf199f1e22c2c2fc9c5c443e77ec57db32ff4f710bd1dad1eae9035d3c77a82da3f78d1cd346131663b3cb78b61f872be6bfca26c105d44d9ae9c458;utdid=ZtU06co8PAMDAJGrdR53quzO;deviceId=AopboEdYtosH4zU4hUDJI2rperQESMmImh5Phh_wZGCo;umt=Ud0B0iZLPHfGogKSKKDjEsPyRPq4qcQm;&
 cookie2=1064e67a8415043c4570ac6444106a6de;unb=1919905024743;USERID=3100178576064;SID=MTA2NGU2N2E4NDE1MDQzYzQ1NzBhYzY0NDQxMDZhNmRlg60j1LwPntpgzC6SRglB1A==;token=1_idc_1_b1aebc27eaa43fb7e2324ca417095fd4542b3212bbe980c2bad0f27d2cd969676153b4caba6eb0adaaa31f3525484cd337292d49b1e9716a3c67f805146ec278877355749fc82eac9e615d511c89ba3c18ed82f05b813abb690b842b0dd1851999be1b256a1fa3fce2d3301403b1842eaa7f3d0cb1faf71d8e775ce65ea99576;utdid=ZtVn9RUP/R8DAGh42OLtPonk;deviceId=Al_5xWae22koPzMT7Wxnc_qeZvNtmw82tvBtV_AcsEIY;umt=AvoBOBBLPEWKYAKSQ7a8Uz0kIGn98n7l;"
 ######################饿了么   END######################
+export jd_evaluate_common="1"
 ## 电信营业厅
 export chinaTelecomAccount="17753185855#930317"
 ## 龙湖天街小程序
@@ -99,7 +100,7 @@ MereyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0Njc3ODI1NSwidXNlcklkIjoz
 MereyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0Njc3ODE3OSwidXNlcklkIjozOTAyNCwidXNlcm5hbWUiOiJvSzR3T3M3aF8wRzRlR2p5R1BYcDNYXzZmbkFnIn0.ZMe113zNYcGVKorqfxJLeXvJ6RON5zvuhmKyDgoUtdU&8104
 MereyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0Njc3ODY3MywidXNlcklkIjozOTAyNSwidXNlcm5hbWUiOiJvSzR3T3M4M0ZQQXJMS24wd3ZXQ0tiTWtXY2lVIn0.zTvmoJDVKl0uIodDHRmNyALvK_BTcn3fgb28WnpbFG4&5833'
 #逢三得利吧
-export FengSanDeLiBaCK='bb7c42e1-0cda-4867-bec0-ebec294859a2#0730
+export FengSanDeLiBaCK='7a175212-005d-45f2-892a-f2afb8745e87#0730
 86cb7731-4230-40b4-bb8f-cac6cbfb4502#5344
 88141c62-6451-4493-964f-12b6299cee7c#8104
 f8b6cf2d-411f-4b85-9e28-165984742c7c#5833'
@@ -440,7 +441,8 @@ export sfsyUrl='https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activi
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=pohqvB2z%2FHn%2FAaMVvH54AFZT4ivtlm44FgEl5%2FogBC8%3D&openId=weQpAz9zXmrhyiW9TsZs065RYRUxQo174gUpNT%2F6omk%3D&memId=Gp2abcMJpVhXmhHAcUIRHz07YrQCWHeNLTj0CecIU%2FkDdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6XZOOeYV8ff4p7m7OUfK8xgDdjSr%2F6X0WoiZtgGzs7sG&mobile=KASjhsnj5dIP16cdbu5ccA%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=D8m2bSCfEgIFutEKGHL1mU2y5lqdMITfXMS4ZXwMijU%3D&openId=z98p5zuVdf10l%2FcSz3rXbmrLVc1SPHLr5ngEWCown7g%3D&memId=ebT8CjYmypb3tRaQeclvge%2B4dvOh7KBNRY8pHlvuFn8DdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6SIPOgCV2QCcrHEy0y%2FoGt0DdjSr%2F6X0WoiZtgGzs7sG&mobile=ZNExzyTuh3HdrEPvMHdCPA%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=JKC5vN4r5zCc9ec%2FS4%2Fe6ZdVHKJxYRbv5CoOI8T5XFM%3D&openId=Pl051JRYVG%2BTxBX%2FZXYOIEzNxrZGbGLgawTWlKFPfiE%3D&memId=6UXr8F2zYAacD2D0URtGiE26TOUlTNr1zgl8KF%2BQSSADdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6RxjMGij0WlzSJK5OWU2vz8DdjSr%2F6X0WoiZtgGzs7sG&mobile=IPIt0HYH4Sr%2BbJpIPa7XWg%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D
-https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=Dk6dr06R1wfF4ZWjaqh1IUhUJB%2BakvyD9Qx1O3OV7Zg%3D&openId=9G5XCfFDxivNFByK4ynM54ZpIeWi%2BvylBHSgzr27Jj8%3D&memId=3s6XqEumqBURaSyg6v2WN7Ckk3sSvxzP%2FAnFzqbzQrkDdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6bOf8DtadVBCcxhB0SwQjIADdjSr%2F6X0WoiZtgGzs7sG&mobile=l50pFoNcPdAq%2BSza5IYdxQ%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D&citycode=531&cityname=%E6%B5%8E%E5%8D%97'
+https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=Dk6dr06R1wfF4ZWjaqh1IUhUJB%2BakvyD9Qx1O3OV7Zg%3D&openId=9G5XCfFDxivNFByK4ynM54ZpIeWi%2BvylBHSgzr27Jj8%3D&memId=3s6XqEumqBURaSyg6v2WN7Ckk3sSvxzP%2FAnFzqbzQrkDdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6bOf8DtadVBCcxhB0SwQjIADdjSr%2F6X0WoiZtgGzs7sG&mobile=l50pFoNcPdAq%2BSza5IYdxQ%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D&citycode=531&cityname=%E6%B5%8E%E5%8D%97
+https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/activityRedirect?source=CX&unionId=JbJ%2BDfGZauyAAyS6MMC2Tmq%2F1J0%2BJ9orK56EpcqpbXo%3D&openId=hWnJmZYDw9D2WRhfvivoQCHmwj8eyrUTXDK3XBsAk%2FQ%3D&memId=In9XIE3g4cH9mIQdbW1T1xCBws2szwBSXJKfjBuD0AsDdjSr%2F6X0WoiZtgGzs7sG&memNo=6tB15T6k0ZvyroDMcHJm6S3BJd3m1%2FANaADFZN7SXJ8DdjSr%2F6X0WoiZtgGzs7sG&mobile=w78sOcIIJZJajHFttmSSKw%3D%3D&mediaCode=wxapp&bizCode=%7B%22path%22%3A%22%2Fup-member%2FnewPoints%22%2C%22linkCode%22%3A%22SFAC20230803190840424%22%2C%22supportShare%22%3A%22YES%22%2C%22subCategoryCode%22%3A%221%22%2C%22from%22%3A%22mypoint%22%2C%22categoryCode%22%3A%221%22%7D&cx-at-sign=0A1C566892AA71B0B6016309F386FA058A0E8C89820DC3C00A60BFF1B91396DE&cx-at-ts=1750731114&cx-at-nonce=SHLuG1EVsQu1PplkzcrDo'
 export ShunFengSuYunCK='[
     {
 		"userNameBak": "5344",
@@ -515,28 +517,28 @@ export IQOO='[
 		"userNameBak": "5344",
 		"id": "6046809",
 		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
-		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Jicy1hcGkuaXFvby5jb20vYXBpL3YzL3VzZXJzL3Zpdm8vbWluaSIsImlhdCI6MTc1MDA0NTM4OSwiZXhwIjoxNzUyNjM3Mzg5LCJuYmYiOjE3NTAwNDUzODksImp0aSI6Ik1PZk16ZmdYeFE1TnJ3WloiLCJzdWIiOiI2MDQ2ODA5IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.EXDPy9J6VdQRVER4eVKkT1_9I3uhoKP2qkH-Nqt94BnzGCtiT5_KBvVdm3jyrRiGDHsA3yGPbjXk8X2rNL8cS3RXQ_ftmZXCrxvmEZ_izBA7F7NjTiqG6Hq_gAxRKCyZrtrLu_RRrKbolMtIBcWZyRhBmOEQ5fJOV5dgUznnhCced491cfPyS6xXkYsZi4tvH5asoFGjAhokn0Xm7OkETylmuiJ8OWglRdPMUW-rs2RfL0JyKxRRDu_kQlT82hEtYWCJAr4DYESi1nkw_4EtkMwVTiZLAIdJiH6vYgMmU87ZweJnXsOo4aeGt9okwozT6AL5sKZ8rVc7ZaxkCKeprA",
+		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Jicy1hcGkuaXFvby5jb20vYXBpL3YzL3VzZXJzL3Zpdm8vbWluaSIsImlhdCI6MTc1NjcwOTMwOCwiZXhwIjoxNzU5MzAxMzA4LCJuYmYiOjE3NTY3MDkzMDgsImp0aSI6IkFRVU5MNGNLVWN1RUZkbHQiLCJzdWIiOiI2MDQ2ODA5IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.fk7UvkzM08AWHawNQ8TIS9sf1uO3YS3YPBY0dBo5_e4Xx8WWuT0FtEkhjiE_OhZEDwV0Efvp_8B7A4yANZY28JRkb6Y0wB1ecRJpUQ_qR_adTA4PxsXepSmMm46-vaLj0Pk2IkbfyIxR6YebbvKjlZPRr7xXRtZELn3qgd93me45wcgMymkjDlXDInSTD5uC4Zz9tIwPuswm-rJTh4TWr5l-WHP5Mn2i25kIjJBIELrzxiigtuXVKXDwwWhTzhMHczO673y1M4kjiDV01GCUwE-iMUvtocQ3oqbSK4ZjPtE2_JG-_jCz-mkESwbcImBbx3UDVQU1ecXeFMYxk_Hq5w",
 		"defaultId": "902465"
 	},
 	{
 		"userNameBak": "8104",
 		"id": "6046773",
 		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
-		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NzM3NDY2OSwiZXhwIjoxNzQ5OTY2NjY5LCJuYmYiOjE3NDczNzQ2NjksImp0aSI6ImpibGdRZG1iMDF2YW5wRTAiLCJzdWIiOjYwNDY3NzMsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.RBZ3yhVE_CMaigwl4YETqrbXUJdilJDBvnYmUgDdPMQAZ4OCeGW9g9ed2D9VdAb9mrjaHqcrHMQeQlKRXCiwHGmuYXRb6HZSaKCA0ZxkhruaIqvM-80awpBwToI8o3dZn2yjwmr_OX-M8f1J12EJbnACIL03qVRc33jdUanzMTcVqFHqWiUTqtDnQarvZWzh8XBbqrtIlF61x1A3NtllJL2j6N2YMSEAQ9yQClBQ5OtyXq4Kwe-hnv9P6JCH9eC0jlllAoFHSz4PLFa4pd3l2NwSv8uzAu9Nej2kSFAEKjMhC4uRAQDl2wiy6pig7vChyd-VEEJRZyv89HtVRVATrQ",
+		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Jicy1hcGkuaXFvby5jb20vYXBpL3YzL3VzZXJzL3Zpdm8vbWluaSIsImlhdCI6MTc1MzE3NDg1OCwiZXhwIjoxNzU1NzY2ODU4LCJuYmYiOjE3NTMxNzQ4NTgsImp0aSI6IjZtZk1hQ010VjMzdEpUN3IiLCJzdWIiOiI2MDQ2NzczIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.WT0EVRKHalwAlpe4FP21RPgJg5TV0-RMBEz8a0SbPVKtWl-9jPigdapxEZPkmvFcdOFj_W4JAHajtsClcSjxy8DPE-zmm41DjaXiMLhvBKkn_KMvsyN2c-4SKz7kp0op8DJxn7nIjvvSDXGgZGlYQc9-QqbplluQbPtrIp6vgLrSkuVqYBXc2sntbwnX5BA9Ps-4myr4QD0RyQLIKgN31fojvO7JsytcJrG8qCWmpZL9zy3-BDa9n_3Uigc3iLU4CDHQtZuTrK5DIKVWMRnvOprSRFpUdO04HQVTU5CGzup6C8RiAM0kPe4N-dnmAc5PXHTIHIwgyBggro3sN_q82A",
 		"defaultId": "1400292"
 	},
 	{
 		"userNameBak": "0730",
 		"id": "5751218",
 		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
-		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Jicy1hcGkuaXFvby5jb20vYXBpL3YzL3VzZXJzL3Zpdm8vbWluaSIsImlhdCI6MTc1MDA0NTI4OCwiZXhwIjoxNzUyNjM3Mjg4LCJuYmYiOjE3NTAwNDUyODgsImp0aSI6Ikx3bHFFU3M2cG1ZdlhlTloiLCJzdWIiOiI1NzUxMjE4IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.IttuJ-SdMb9lapsMIwPuQErGzIebo3Pj6xqasCoVaCDot_f3Czgx7-tz6NA03-EALq6vgCkc9H8-kQBSnF6vEm1FaCx7xF0hKCA05Dcv_yzI7XMMiJWL_8HF3r1Md78k-vx-9tCwjtZoF7V5su8-pDKZ7slgiS8qW5WrxHgXdKahYkh7kwtVztnEf9q0zfI9MmLVNHglnf4kpENOlGKgoT50TR6sTKNwIEwx3hmIDaHrldHg66jmQRiEzgNx584hnIIa0myiGrRiVAFtphYessvaUt4OfWk1rXkIxOmVvm2E80y4s6eyybYtmkK7UgGuifZI3xKqKyhI52Im0BZmUw",
+		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Jicy1hcGkuaXFvby5jb20vYXBpL3YzL3VzZXJzL3Zpdm8vbWluaSIsImlhdCI6MTc1NjcwOTI0NywiZXhwIjoxNzU5MzAxMjQ3LCJuYmYiOjE3NTY3MDkyNDcsImp0aSI6ImxJZ29uNDFiOHY3SlpvaHoiLCJzdWIiOiI1NzUxMjE4IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.C-plD9HYl2BDOL201Ek3OqLoQ-3NI2-4ReInqY5w8vHzmfeH091nu1YtjS0NSXulnbhEVI3bV_t2lIlbyQfZIeT1IHt3PQrTtaPwLuMrLjE-1X73TmOgFjAQuPu2t2jm7r-dXV_A3zJJ67QxsyyBL8G1a2U1RL6bdOpfli8B5FR0Azwgzb-_BBpXwDZEecm3Hm88Uq0QOPRrdSHf-zeZtPuVEunyK0Mudj-lCWmY-i3_ngfcDL26ytRPzj44C48-vk4kNcZgBFsbdBWqZzVTDw8su-GA4-0O711Zz3As3FsiN5-3cw3cnJqRdlkcGlCXDNoN5my7L1vBSLrQq4qnlA",
 		"defaultId": "1101401"
 	},
 	{
 		"userNameBak": "85855",
 		"id": "8182410",
 		"xVisitor": "b89d8b0ffa920e96f3cb4c1f69ec2c66",
-		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9iYnMtYXBpLmlxb28uY29tXC9hcGlcL3YzXC91c2Vyc1wvdml2b1wvbWluaSIsImlhdCI6MTc0NzQ2MDg5OSwiZXhwIjoxNzUwMDUyODk5LCJuYmYiOjE3NDc0NjA4OTksImp0aSI6ImF3VTJhVlhmWUJabExHUGYiLCJzdWIiOjgxODI0MTAsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.AoYCUO6AfU0HUY8E2sxWK5aipkuJr6PrCa9qLxBZ4R79Q0kridGX8MZUs-KPN5mU_Ddd5pgt3lzSRd1AdhbOsV6OyoQNwJV0ekmVxMAhr9aYSvJ5C8S2ilc1wgdBeXr6wAoiY5vpoku3B2VtqOAHVCEjPRYjQ6gqkgXaRWehQOARJbxl9h-fIvKe2vEWZ7Zv9e3SU9kox_VWR-x6B_6q9wYmycRCV1T5nVhPWhZOu_ACaq2uOi7FQWrlr8vyR1lPXtoDC5ZopnISgRlx_DJ8U31U2R3ueW7DV0YU38SrLH6KgXAmc6Q8VsS6rG4mLd44lnYrXQ1Lo4ceJC5IlXx36Q",
+		"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Jicy1hcGkuaXFvby5jb20vYXBpL3YzL3VzZXJzL3Zpdm8vbWluaSIsImlhdCI6MTc1MzE1MDQ3OSwiZXhwIjoxNzU1NzQyNDc5LCJuYmYiOjE3NTMxNTA0NzksImp0aSI6IjRpUzgwTk9nTmxqdGlhYUIiLCJzdWIiOiI4MTgyNDEwIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.A0bUa_iePhkQbFr0lLSoyj09gjNer8odSEBh25OEz6rb_SGZDLHnPeaNpyveBBW8OSgYfiSGxtjBPHi3RRpWDu8DCQKt8CNkYsb_49tFGfbpXnt4t29hCCEJYOfcSP2ZPMYvs0EVei3eU2OZynPkYOK2XZ4u1AMgWalGl6AEM_pKnTuWZBXt9EgIvXiQl97s6lApksqr1m0WUo-lWUrmKxjJtYlFlxbwg0yGdo9RiT3K3tbGITbUl9oJOc316N-RkFGwJVnAtx1O1W8ooC2SDC19zGSacRfVejT75uHkdNqDsjMKH9goOP_9o6T5OtHb03BC8aVrBYveTCVOPwx5zg",
 		"defaultId": "902465"
 	},
 	{
@@ -628,6 +630,10 @@ export XiJiu='[
 	{
 		"id": "85855",
 		"loginCode": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlvbmlkIjoib0E0b0QxYmFvNXBhQ01XVnVlRTc1clFhOTd0USIsInVzZXJfaWQiOjAsImV4cGlyZSI6MTc0ODIyNDA3OH0.j1vS5ha2j7aBT6ngZu9pWCLE_C6dpAQ3w3iSa4e_mEA"
+	},
+	{
+		"id": "15864380908",
+		"loginCode": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlvbmlkIjoib0E0b0QxWThFMm9rTWQyQXJnb255UGNKTWE5YyIsInVzZXJfaWQiOjAsImV4cGlyZSI6MTc1MjcyNzAwNn0.-rl3RdLGDXqdbfKeW3rpYNCHlzk_3ZBxVj7ejQljwhE"
 	}
 ]'
 
@@ -636,7 +642,7 @@ export XiJiu_Exchange='true'
 export OCR_SERVER='http://192.168.10.15:7777'
 ## 君品荟
 ## export JunPinHui="账号1&密码1 账号2&密码2"
-export JunPinHui="19016418104&Java_1314 19546115344&Java_1314 15194115833&Java_1314 15165150730&Java*1314 17753185855&Java_1314"
+export JunPinHui="19016418104#Java_1314 19546115344#Java_1314 15194115833#Java_1314 15165150730#Java*1314 17753185855#Java_1314 15863542175#Java&1314 15864380908#Java&1314"
 
  ## cron "30 10,18 * * *" QingDaoNews.js
  ## export QingDaoNews="账号1&密码1 账号2&密码2"
