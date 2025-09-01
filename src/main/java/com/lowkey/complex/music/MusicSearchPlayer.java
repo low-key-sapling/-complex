@@ -32,7 +32,7 @@ public class MusicSearchPlayer {
 
     private static final org.slf4j.Logger logger = LoggerFactory.getLogger(NetworkMusicPlayer.class);
     static final HttpClientUtil httpClientUtil = new HttpClientUtil();
-    static final List<String> songName = Arrays.asList("分手那天", "stay%2Bwith%2Bme(鬼怪)", "写给辛夷的歌", "遗憾", "天下的乌鸦一般黑", "我用什么把你留住", "可能");
+    static final List<String> songName = Arrays.asList("三拜红尘凉-黄龄","河流-川川","莫愁乡","念-薛之谦", "方的言-薛之谦","只字不提-于和伟","我爱你中国(国风)-华语群星","分手那天", "stay%2Bwith%2Bme(鬼怪)", "写给辛夷的歌", "遗憾", "天下的乌鸦一般黑", "我用什么把你留住", "可能");
     //keyword : 关键字
     static final String songSearchUrl = "https://mobilecdn.kugou.com/api/v3/search/song?format=json&page=1&pagesize=20&showtype=1&keyword=";
 
@@ -48,7 +48,7 @@ public class MusicSearchPlayer {
                     if (list != null) {
                         //取前五个
                         ArrayList<String> objects = Lists.newArrayList();
-                        for (int i = 0; i < 3; i++) {
+                        for (int i = 0; i < 2; i++) {
                             if (list.get(i) != null) {
                                 objects.add(list.get(i).get("hash").toString());
                             }
