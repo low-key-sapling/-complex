@@ -24,7 +24,7 @@ npm install
 
 ```
 node-rsa
-got
+got@11.8.6
 xmldom
 jsencrypt
 ql
