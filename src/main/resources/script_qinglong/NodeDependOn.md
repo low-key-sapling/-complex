@@ -1,8 +1,20 @@
 ## 镜像源
 
-```
+### 淘宝
+
 npm config set registry https://registry.npmmirror.com
-```
+
+#### yarn 设置
+yarn config set registry https://registry.npmmirror.com/
+
+### 阿里云
+npm config set registry https://registry.npm.taobao.org/
+
+### 腾讯云
+npm config set registry https://mirrors.cloud.tencent.com/npm/
+
+### 华为云
+npm config set registry https://mirrors.huaweicloud.com/repository/npm/
 
 ## 安装依赖
 
@@ -11,6 +23,9 @@ npm install
 ```
 
 ```
+node-rsa
+got
+xmldom
 jsencrypt
 ql
 crypto
