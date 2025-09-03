@@ -23,6 +23,7 @@ npm install
 ```
 
 ```
+tough-cookie
 node-rsa
 got@11.8.6
 xmldom
